@@ -12,28 +12,15 @@ public class CameraScrip : MonoBehaviour
     {
         myCamera = gameObject.GetComponent<Camera>();
     }
-
-
     public void SwitchingCullingMaskOn()
     {
-        // myCamera.cullingMask |= (1 << 8);
-        //myCamera.targetTexture = null;
         StartCoroutine(UploadPNG());
-    }
-
-    public void SwitchingCullingMaskOff()
-    {
-        // myCamera.cullingMask &= ~(1 << 8);
-        //myCamera.targetTexture = myTexture;
     }
 
     IEnumerator UploadPNG()
     {
-        Debug.Log("Yes");
         myCamera.targetTexture = myTexture;
-        Debug.Log("Yes1");
         yield return new WaitForEndOfFrame();
-        Debug.Log(("no"));
         myCamera.targetTexture = null;
     }
 }

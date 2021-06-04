@@ -3,10 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="9c25ff79-e8fa-44c1-996e-9d518d0744b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HoloLens-HTW/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HoloLens-HTW/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CameraScrip.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CameraScrip.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/APP.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/APP.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/HandInteractionHololectrics.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/HandInteractionHololectrics.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/View.renderTexture" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/View.renderTexture.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +21,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/ChangeTexture.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ImageNetworking.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CameraScrip.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.6.2/Core/Utilities/Rendering/MaterialInstance.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FreezeRotation.cs" root0="FORCE_HIGHLIGHTING" />
@@ -28,6 +34,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/ScreenShot.cs" />
       <option value="$PROJECT_DIR$/Assets/FreezeRotation.cs" />
       <option value="$PROJECT_DIR$/Assets/CameraScrip.cs" />
+      <option value="$PROJECT_DIR$/Assets/ImageNetworking.cs" />
+      <option value="$PROJECT_DIR$/Assets/ChangeTexture.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1ohLcszEXc4iUtUqORwir94E0Hg" />
@@ -77,6 +85,8 @@
       <workItem from="1613741819949" duration="1226000" />
       <workItem from="1622132706387" duration="9489000" />
       <workItem from="1622188019143" duration="1945000" />
+      <workItem from="1622746708292" duration="11514000" />
+      <workItem from="1622781968861" duration="2603000" />
     </task>
     <servers />
   </component>

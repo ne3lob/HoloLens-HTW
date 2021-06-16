@@ -12,6 +12,7 @@ public class CameraScrip : MonoBehaviour
     {
         myCamera = gameObject.GetComponent<Camera>();
     }
+
     public void SwitchingCullingMaskOn()
     {
         StartCoroutine(UploadPNG());

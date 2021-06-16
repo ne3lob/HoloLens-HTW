@@ -1,38 +1,42 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
 using UnityEngine.UI;
 
-public class ChangeTexture : MonoBehaviourPunCallbacks, IPunObservable
+public class ChangeTexture : MonoBehaviourPun
 {
-    public RawImage image;
+    public Texture2D textureToSend;
+    public byte[] N;
 
-    private Texture2D toTexture2D(Texture rTex)
-    {
-        Texture2D dest = new Texture2D(rTex.width, rTex.height, TextureFormat.RGBA32, false);
-        dest.Apply(false);
-        Graphics.CopyTexture(rTex, dest);
-        return dest;
-    }
-
-    private byte[] rawData;
-    private Texture2D tex;
+    private Texture2D receivedTexture;
 
     void Update()
     {
+        if (PhotonNetwork.IsMasterClient)
+        {
+            photonView.RPC("Send", RpcTarget.Others, textureToSend.EncodeToPNG());
+        }
     }
 
 
-    public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+    IEnumerator GetRenderTexturePixel(Texture2D tex)
     {
-        if (stream.IsWriting)
-        {
-            tex = toTexture2D(image.texture);
-            rawData = tex.EncodeToPNG();
-            stream.SendNext(rawData);
-            Debug.Log(rawData);
-        }
+        Texture2D tempTex = new Texture2D(tex.width, tex.height);
+        yield return new WaitForEndOfFrame();
+        tempTex.ReadPixels(new Rect(0, 0, tex.width, tex.height), 0, 0);
+        tempTex.Apply();
+        N = tempTex.EncodeToPNG();
+    }
+
+
+    [PunRPC]
+    void Send(byte[] receivedByte)
+    {
+        receivedTexture = new Texture2D(1, 1);
+        receivedTexture.LoadImage(receivedByte);
+        GetComponent<Renderer>().material.mainTexture = receivedTexture;
     }
 }

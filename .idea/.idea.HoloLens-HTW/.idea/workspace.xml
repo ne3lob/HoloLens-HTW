@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c25ff79-e8fa-44c1-996e-9d518d0744b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HoloLens-HTW/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HoloLens-HTW/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HoloLens-HTW/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HoloLens-HTW/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CameraScrip.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CameraScrip.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChangeTexture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ChangeTexture.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/image.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/image.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/HandInteractionHololectrics.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/HandInteractionHololectrics.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +19,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/CameraScrip.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/BaseInput.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.6.2/Core/Utilities/Rendering/MaterialInstance.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ImageNetworking.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextureSender.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FreezeRotation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ChangeTexture.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -31,9 +32,13 @@
       <option value="$PROJECT_DIR$/Assets/ScreenShot.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ScreenShot.cs" />
       <option value="$PROJECT_DIR$/Assets/FreezeRotation.cs" />
-      <option value="$PROJECT_DIR$/Assets/CameraScrip.cs" />
       <option value="$PROJECT_DIR$/Assets/ImageNetworking.cs" />
+      <option value="$PROJECT_DIR$/Assets/CameraScrip.cs" />
       <option value="$PROJECT_DIR$/Assets/ChangeTexture.cs" />
+      <option value="$PROJECT_DIR$/Assets/TextureSendRecieve/NetworkTexture.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ExampleReceiver.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Loom.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/NetworkTexture.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1ohLcszEXc4iUtUqORwir94E0Hg" />
@@ -85,6 +90,8 @@
       <workItem from="1622188019143" duration="1945000" />
       <workItem from="1622746708292" duration="11514000" />
       <workItem from="1622781968861" duration="2603000" />
+      <workItem from="1623347357527" duration="12464000" />
+      <workItem from="1623773981677" duration="915000" />
     </task>
     <servers />
   </component>

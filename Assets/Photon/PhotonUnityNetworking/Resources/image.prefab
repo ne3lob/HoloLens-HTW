@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 7119048475139236123}
   - component: {fileID: 3650088664523405257}
   - component: {fileID: 48230691485111453}
-  - component: {fileID: 5326619843627244213}
   - component: {fileID: 5725912898307662341}
   m_Layer: 5
   m_Name: image
@@ -66,23 +65,10 @@ MonoBehaviour:
   OwnershipTransfer: 0
   observableSearch: 0
   ObservedComponents:
-  - {fileID: 5326619843627244213}
+  - {fileID: 0}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
---- !u!114 &5326619843627244213
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4636128054410708630}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79ca22031d297074f9437c6ab1969c83, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  image: {fileID: 5725912898307662341}
 --- !u!114 &5725912898307662341
 MonoBehaviour:
   m_ObjectHideFlags: 0

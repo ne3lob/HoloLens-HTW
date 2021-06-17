@@ -65,6 +65,7 @@ namespace TextureSendReceive
 
             listner.Start();
 
+
             //Start sending coroutine
             StartCoroutine(senderCOR());
         }
@@ -121,7 +122,7 @@ namespace TextureSendReceive
 
                     //Send the image bytes
                     stream.Write(imageBytes, 0, imageBytes.Length);
-                    //Sent. Set readyToGetFrame true
+                    //Sent Set readyToGetFrame true
                     readyToGetFrame = true;
                 });
 
@@ -182,6 +183,7 @@ namespace TextureSendReceive
                 imageReceiver();
             });
         }
+
 
         void imageReceiver()
         {

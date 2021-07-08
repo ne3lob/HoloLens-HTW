@@ -28,30 +28,57 @@ namespace TextureSendReceive
 
             // Set send texture
             sender.SetSourceTexture(sendTexture);
+
+            RenderTexture.active = camera.targetTexture;
+            image.texture = camera.targetTexture;
+            ButtonNext.SetActive(false);
         }
 
-        // void Update()
-        // {
-        //     if (Input.GetKeyDown(""))
-        //     {
-        //         RenderTexture.active = camera.targetTexture;
-        //         sendTexture.ReadPixels(new Rect(0, 0, camera.targetTexture.width, camera.targetTexture.height), 0, 0,
-        //             false);
-        //
-        //         // Set preview image target
-        //         image.texture = camera.targetTexture;
-        //     }
-        // }
+        private int _countScreenshots;
+        [SerializeField] private GameObject firstScreenshootToggle;
+        [SerializeField] private GameObject secondScreenshootToggle;
+        [SerializeField] private GameObject thirdScreenshootToggle;
+        [SerializeField] private GameObject ImageOverlay;
 
         public void ScreenSender()
         {
+            StartCoroutine(WaitScreenshotTime());
             RenderTexture.active = camera.targetTexture;
             sendTexture.ReadPixels(new Rect(0, 0, camera.targetTexture.width, camera.targetTexture.height), 0, 0,
                 false);
-
             // Set preview image target
+
             image.texture = camera.targetTexture;
-            print("screen");
+            _countScreenshots++;
+           
+            ScreenshotToggle();
+        }
+        
+        [SerializeField] private GameObject ButtonNext;
+        void ScreenshotToggle()
+        {
+            switch (_countScreenshots)
+            {
+                case 1:
+                    firstScreenshootToggle.SetActive(true);
+                    
+                    break;
+                case 2:
+                    secondScreenshootToggle.SetActive(true);
+                    
+                    break;
+                case 3:
+                    thirdScreenshootToggle.SetActive(true);
+                   ButtonNext.SetActive(true);
+                    break;
+            }
+        }
+
+        IEnumerator WaitScreenshotTime()
+        {
+            ImageOverlay.SetActive(true);
+            yield return new WaitForSeconds(1);
+            ImageOverlay.SetActive(false);
         }
     }
 }

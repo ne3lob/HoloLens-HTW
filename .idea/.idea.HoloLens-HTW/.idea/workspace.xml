@@ -3,14 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="9c25ff79-e8fa-44c1-996e-9d518d0744b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HoloLens-HTW/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HoloLens-HTW/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/HandMenu.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/HandMenu.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - HandTracking/Scenes/HandMenuExamples.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - HandTracking/Scenes/HandMenuExamples.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Scenes/InteractablesExamples.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Scenes/InteractablesExamples.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ClippingSphere.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ClippingSphere.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ClippingSphere.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ClippingSphere.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/HumanHeart.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/HumanHeart.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/HumanHeart.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/HumanHeart.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/Scenes/ClippingExamples.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/Scenes/ClippingExamples.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/HandInteractionHololectrics.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/HandInteractionHololectrics.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraSender.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraSender.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/IconSetNew.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/IconSetNew.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ImageAppearance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ImageAppearance.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +22,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/BaseInput.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.6.2/Core/Utilities/StandardShader/ClippingPlane.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.6.2/Core/Utilities/StandardShader/ClippingSphere.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScaleScanner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.6.2/Core/Utilities/Rendering/MaterialInstance.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.6.2/Core/Utilities/StandardShader/ClippingBox.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.6.2/SDK/Features/Input/Handlers/ObjectManipulator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextureSender.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CameraCollider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_SubMeshUI.cs" root0="SKIP_HIGHLIGHTING" />
@@ -46,9 +49,11 @@
       <option value="$PROJECT_DIR$/Assets/ButtonNext.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CameraSender.cs" />
       <option value="$PROJECT_DIR$/Assets/HandMenuLogic.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ImageAppearance.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/HandMenuLogic.cs" />
       <option value="$PROJECT_DIR$/Assets/CameraCollider.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ImageAppearance.cs" />
+      <option value="$PROJECT_DIR$/Assets/ScaleScanner.cs" />
+      <option value="$PROJECT_DIR$/Assets/TargetPositionScanner.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1ohLcszEXc4iUtUqORwir94E0Hg" />
@@ -109,6 +114,8 @@
       <workItem from="1623970189930" duration="1101000" />
       <workItem from="1625734107953" duration="3549000" />
       <workItem from="1625742955318" duration="19775000" />
+      <workItem from="1625808994449" duration="3073000" />
+      <workItem from="1625818117091" duration="3512000" />
     </task>
     <servers />
   </component>

@@ -7,6 +7,8 @@ TagManager:
   - Bullet
   - Canvas
   - Point
+  - PlaneLeft
+  - PlaneBottom
   layers:
   - Default
   - TransparentFX

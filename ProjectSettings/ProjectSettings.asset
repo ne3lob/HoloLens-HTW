@@ -46,7 +46,7 @@ PlayerSettings:
   defaultScreenHeight: 768
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
-  m_StereoRenderingPath: 1
+  m_StereoRenderingPath: 2
   m_ActiveColorSpace: 0
   m_MTRendering: 1
   mipStripping: 0
@@ -586,9 +586,9 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    1: OCULUSINTEGRATION_PRESENT;PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER
+    1: PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER
     4: PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER
-    7: OCULUSINTEGRATION_PRESENT;PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER
+    7: PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER
     13: PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER
     14: master;PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER
     19: PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER
@@ -613,7 +613,7 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Template_3D
+  metroPackageName: Template3D
   metroPackageVersion: 1.0.4.0
   metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
@@ -622,7 +622,7 @@ PlayerSettings:
   metroCertificateNotAfter: 807d29564612d801
   metroApplicationDescription: Template_3D
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: HoloLensDevelopment
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
@@ -636,11 +636,52 @@ PlayerSettings:
   metroSplashScreenUseBackgroundColor: 0
   platformCapabilities:
     WindowsStoreApps:
-      GazeInput: True
+      CodeGeneration: False
+      VideosLibrary: False
+      Location: False
+      HumanInterfaceDevice: False
+      Chat: False
+      Bluetooth: False
+      MusicLibrary: False
+      AllJoyn: False
+      PrivateNetworkClientServer: False
+      LowLevelDevices: False
+      InternetClientServer: False
+      OfflineMapsManagement: False
+      Objects3D: False
+      RemoteSystem: False
+      BlockedChatMessages: False
+      PhoneCall: False
+      UserDataTasks: False
+      Appointments: False
+      SystemManagement: False
       SpatialPerception: True
-      InternetClient: True
       Microphone: True
-  metroTargetDeviceFamilies: {}
+      SharedUserCertificates: False
+      InputInjectionBrokered: False
+      RemovableStorage: False
+      PicturesLibrary: False
+      WebCam: False
+      VoipCall: False
+      GazeInput: True
+      UserAccountInformation: False
+      UserNotificationListener: False
+      PhoneCallHistoryPublic: False
+      PointOfService: False
+      RecordedCallsFolder: False
+      Contacts: False
+      Proximity: False
+      InternetClient: True
+      BackgroundMediaPlayback: False
+      EnterpriseAuthentication: False
+  metroTargetDeviceFamilies:
+    Desktop: False
+    Holographic: False
+    IoT: False
+    IoTHeadless: False
+    Mobile: False
+    Team: False
+    Xbox: False
   metroFTAName: 
   metroFTAFileTypes: []
   metroProtocolName: 

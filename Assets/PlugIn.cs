@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Microsoft.MixedReality.Toolkit.UI;
 using UnityEngine;
 
 public class PlugIn : MonoBehaviour
@@ -7,7 +8,9 @@ public class PlugIn : MonoBehaviour
     [SerializeField] private GameObject plug;
 
     [SerializeField] private GameObject plugTriggerPosition;
-    private bool _electricity=true;
+    private bool _electricity = true;
+    private float distance_;
+
 
     // Start is called before the first frame update
     void Start()
@@ -17,19 +20,11 @@ public class PlugIn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        
-        plug.transform.position = plugTriggerPosition.transform.position;
-        if (_electricity)
+        distance_ = Vector3.Distance(plug.transform.position, plugTriggerPosition.transform.position);
+        if (distance_ < 0.05f)
         {
-            Debug.Log("true");
-        }
-        else
-        {
-            Debug.Log("no");
+            plug.transform.position = plugTriggerPosition.transform.position;
+            plug.transform.rotation = plugTriggerPosition.transform.rotation;
         }
     }
 }

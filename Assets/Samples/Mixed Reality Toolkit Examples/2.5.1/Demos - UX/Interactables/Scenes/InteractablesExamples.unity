@@ -341,6 +341,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 34160216}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!23 &34160216
@@ -616,6 +617,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4607159678781596, guid: d5e0e8cc740eb134789fd1f6bb5bb80a, type: 3}
   m_PrefabInstance: {fileID: 1582242360}
   m_PrefabAsset: {fileID: 0}
+--- !u!23 &126751071 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6956884834527463990, guid: e7b58958a288a68488c207e4b0657743, type: 3}
+  m_PrefabInstance: {fileID: 6956884833893245507}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &171287125 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114718788154663760, guid: 51cc6641d88b49d46bd38572540efe6c, type: 3}
@@ -753,6 +759,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 173507646}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!23 &173507646
@@ -1466,6 +1473,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 322307352}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!23 &322307352
@@ -3584,6 +3592,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 1186136056}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!23 &1186136056
@@ -3753,6 +3762,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 1191649522}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!23 &1191649522
@@ -3957,6 +3967,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 1230432843}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!23 &1230432843
@@ -4224,6 +4235,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 1260921274}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!23 &1260921274
@@ -4664,6 +4676,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 1409442362}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!23 &1409442362
@@ -4838,6 +4851,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 1442791396}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!23 &1442791396
@@ -5427,6 +5441,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 1601961664}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!222 &1601961662
@@ -5945,6 +5960,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 1666226754}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!23 &1666226754
@@ -7114,6 +7130,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 2108589155}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!23 &2108589155
@@ -7425,6 +7442,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 2120155042}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!23 &2120155042
@@ -7942,6 +7960,10 @@ PrefabInstance:
       value: Microsoft.MixedReality.Toolkit.UI.InteractableOnGrabReceiver, Microsoft.MixedReality.Toolkit.SDK
       objectReference: {fileID: 0}
     - target: {fileID: 6956884833964320618, guid: e7b58958a288a68488c207e4b0657743, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6956884833964320618, guid: e7b58958a288a68488c207e4b0657743, type: 3}
       propertyPath: Events.Array.data[0].Settings.Array.data[0].Name
       value: OnRelease
       objectReference: {fileID: 0}
@@ -7958,6 +7980,22 @@ PrefabInstance:
       value: Grab was released
       objectReference: {fileID: 0}
     - target: {fileID: 6956884833964320618, guid: e7b58958a288a68488c207e4b0657743, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6956884833964320618, guid: e7b58958a288a68488c207e4b0657743, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 126751071}
+    - target: {fileID: 6956884833964320618, guid: e7b58958a288a68488c207e4b0657743, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6956884833964320618, guid: e7b58958a288a68488c207e4b0657743, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: set_enabled
+      objectReference: {fileID: 0}
+    - target: {fileID: 6956884833964320618, guid: e7b58958a288a68488c207e4b0657743, type: 3}
       propertyPath: Events.Array.data[0].Event.m_PersistentCalls.m_Calls.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -7967,12 +8005,20 @@ PrefabInstance:
         Culture=neutral, PublicKeyToken=null
       objectReference: {fileID: 0}
     - target: {fileID: 6956884833964320618, guid: e7b58958a288a68488c207e4b0657743, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.Renderer, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6956884833964320618, guid: e7b58958a288a68488c207e4b0657743, type: 3}
       propertyPath: Events.Array.data[0].Event.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6956884833964320618, guid: e7b58958a288a68488c207e4b0657743, type: 3}
       propertyPath: Events.Array.data[0].Event.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6956884833964320618, guid: e7b58958a288a68488c207e4b0657743, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6956884833964320618, guid: e7b58958a288a68488c207e4b0657743, type: 3}
       propertyPath: Events.Array.data[0].Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -8001,6 +8047,10 @@ PrefabInstance:
     - target: {fileID: 6956884833964320618, guid: e7b58958a288a68488c207e4b0657743, type: 3}
       propertyPath: Events.Array.data[0].Settings.Array.data[0].EventValue.m_PersistentCalls.m_Calls.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6956884833964320618, guid: e7b58958a288a68488c207e4b0657743, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6956884833964320618, guid: e7b58958a288a68488c207e4b0657743, type: 3}
       propertyPath: Events.Array.data[0].Event.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument

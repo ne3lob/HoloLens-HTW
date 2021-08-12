@@ -2,24 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c25ff79-e8fa-44c1-996e-9d518d0744b7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HoloLens-HTW/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HoloLens-HTW/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HoloLens-HTW/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HoloLens-HTW/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CameraCollider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CameraCollider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OpenKiste.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OpenKiste.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlaceObjects.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlaceObjects.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlugIn.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlugIn.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PullOfObjectsInKaste.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PullOfObjectsInKaste.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScaleScanner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScaleScanner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/CabelFromServer.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/CabelFromServer.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Scenes/InteractablesExamples.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Scenes/InteractablesExamples.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/HandInteractionHololectrics.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/HandInteractionHololectrics.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SetVisualization.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SetVisualization.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TargetPositionScanner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TargetPositionScanner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OpenDoorKiste.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OpenDoorKiste.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlugIn.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlugIn.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +24,10 @@
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/BaseInput.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/SDK/Features/Input/Handlers/Constraints/RotationAxisConstraint.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpatialObservationsScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DistanceJoint3D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.examples@2.7.2/Common/Scripts/DemoSpatialMeshHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/Services/InputSystem/NearInteractionGrabbable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/Core/Utilities/Rendering/MaterialInstance.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OpenDoorKiste.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextureSender.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/Core/Utilities/StandardShader/ClippingSphere.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -73,6 +63,8 @@
       <option value="$PROJECT_DIR$/Assets/StartObjectDisable.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/StopTapPlaceContent.cs" />
       <option value="$PROJECT_DIR$/Assets/OpenDoorKiste.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/OpenDoorKiste.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DistanceJoint3D.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1ohLcszEXc4iUtUqORwir94E0Hg" />
@@ -140,7 +132,8 @@
       <workItem from="1627407623446" duration="11531000" />
       <workItem from="1628203449144" duration="14438000" />
       <workItem from="1628674673698" duration="10000" />
-      <workItem from="1628677989832" duration="5285000" />
+      <workItem from="1628677989832" duration="6086000" />
+      <workItem from="1628764275545" duration="2654000" />
     </task>
     <servers />
   </component>

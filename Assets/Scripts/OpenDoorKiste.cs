@@ -7,14 +7,15 @@ public class OpenDoorKiste : MonoBehaviour
     private Vector3 targetRotationOpen;
     private Vector3 targetRotationClose;
     private bool open;
+    [SerializeField] private List<GameObject> Tooltips;
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         var rotation = transform.rotation;
-        targetRotationOpen = new Vector3(-90, 0, 50);
-        targetRotationClose = new Vector3(-90, 0, -90);
-        open = false;
+        targetRotationOpen = new Vector3(0, 45, 0);
+        targetRotationClose = new Vector3(0, -90, 0);
+        open = false;   
     }
 
     IEnumerator LerpFunction(Quaternion endValue, float duration)
@@ -31,12 +32,17 @@ public class OpenDoorKiste : MonoBehaviour
 
         transform.rotation = endValue;
     }
-
+    
     public void OpenDoor()
     {
         open = !open;
         StartCoroutine(!open
             ? LerpFunction(Quaternion.Euler(targetRotationOpen), 1)
             : LerpFunction(Quaternion.Euler(targetRotationClose), 1));
+        foreach (var obj in Tooltips)
+        {
+            obj.SetActive(!open);
+        }
+        
     }
 }

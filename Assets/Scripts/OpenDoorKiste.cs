@@ -12,7 +12,7 @@ public class OpenDoorKiste : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        var rotation = transform.rotation;
+        var rotation = transform.localRotation;
         targetRotationOpen = new Vector3(0, 45, 0);
         targetRotationClose = new Vector3(0, -90, 0);
         open = false;   
@@ -21,16 +21,16 @@ public class OpenDoorKiste : MonoBehaviour
     IEnumerator LerpFunction(Quaternion endValue, float duration)
     {
         float time = 0;
-        Quaternion startValue = transform.rotation;
+        Quaternion startValue = transform.localRotation;
 
         while (time < duration)
         {
-            transform.rotation = Quaternion.Lerp(startValue, endValue, time / duration);
+            transform.localRotation = Quaternion.Lerp(startValue, endValue, time / duration);
             time += Time.deltaTime;
             yield return null;
         }
 
-        transform.rotation = endValue;
+        transform.localRotation = endValue;
     }
     
     public void OpenDoor()

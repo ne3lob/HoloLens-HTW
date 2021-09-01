@@ -9,6 +9,7 @@ TagManager:
   - Point
   - PlaneLeft
   - PlaneBottom
+  - Box
   layers:
   - Default
   - TransparentFX

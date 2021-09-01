@@ -21,12 +21,17 @@ public class ChangingColor : MonoBehaviour
     {
         _activeSelected = !_activeSelected;
         this.gameObject.GetComponent<Renderer>().material = !_activeSelected ? normalMat : selectedMat;
-        if (_activeSelected)
+        if (!_activeSelected)
         {
             foreach (var massband in massbands)
             {
                 massband.SetActive(false);
             }
         }
+    }
+
+    public void DisableFirst(GameObject first)
+    {
+        first.SetActive(_activeSelected);
     }
 }

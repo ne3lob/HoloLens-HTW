@@ -16,4 +16,5 @@ public class CameraCollider : MonoBehaviour
             _handMenu.GetComponent<HandMenuLogic>().HandMenuBoolToFalse();
         }
     }
+    
 }

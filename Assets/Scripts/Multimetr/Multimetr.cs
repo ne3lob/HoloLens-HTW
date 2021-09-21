@@ -5,8 +5,9 @@ using UnityEngine;
 
 public class Multimetr : MonoBehaviour
 {
-    [SerializeField] public GameObject toolTipBox;
-
+    [SerializeField] public GameObject FIToolTipBox;
+    [SerializeField] public GameObject SocketToolTipBox;
+    [SerializeField] public GameObject FItoolTipBox;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,17 +20,17 @@ public class Multimetr : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Box")
+        if (other.gameObject.tag == "FI")
         {
-            toolTipBox.SetActive(true);
+            FIToolTipBox.SetActive(true);
         }
     }
 
     void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.tag == "Box")
+        if (other.gameObject.tag == "FI")
         {
-            toolTipBox.SetActive(false);
+            FIToolTipBox.SetActive(false);
         }
     }
 }

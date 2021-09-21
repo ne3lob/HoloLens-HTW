@@ -25,8 +25,8 @@ public class PlugInServer : MonoBehaviour
     void Start()
     {
         _isSelectedPlug = false;
-        _manager = GameObject.Find("_MANAGER_");
-        _selectedObjectListScript = _manager.GetComponent<SelectedObject>();
+         _manager = GameObject.Find("_MANAGER_");
+          _selectedObjectListScript = _manager.GetComponent<SelectedObject>();
         targetRotationPlug = new Vector3(0, -103, 0);
         targetPositionPlug = new Vector3(5.573f, 0.71f, 3.913f);
     }

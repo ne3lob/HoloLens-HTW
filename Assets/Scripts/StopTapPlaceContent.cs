@@ -20,7 +20,12 @@ public class StopTapPlaceContent : MonoBehaviour
     void Update()
     {
         if (disablePlacement)
+        {
             tapToPlace.StopPlacement();
+            tapToPlace.enabled = false;
+        }
+           
+
     }
 
     public void ChangeBool()

@@ -3,10 +3,36 @@
   <component name="ChangeListManager">
     <list default="true" id="9c25ff79-e8fa-44c1-996e-9d518d0744b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HoloLens-HTW/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HoloLens-HTW/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/Teapot.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/Teapot.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/Teapot.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/Teapot.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_allUpDown.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_allUpDown.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_allaa.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_allaa.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_alls.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_alls.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_asket.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_asket.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_erver.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_erver.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_lock.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_lock.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_ocketWall 1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_ocketWall 1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_pdownCabel.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_pdownCabel.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_witch.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_witch.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/rightLeftCabel.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/rightLeftCabel.fbx.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/HandInteractionHololectrics.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/HandInteractionHololectrics.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraCollider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraCollider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChangingColor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChangingColor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Multimetr/Multimetr.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Multimetr/Multimetr.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlugInServer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlugInServer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StopTapPlaceContent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StopTapPlaceContent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/IconSetNew.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/IconSetNew.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,11 +57,12 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/Core/Utilities/Async/Internal/AsyncCoroutineRunner.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpatialObservationsScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.examples@2.7.2/Common/Scripts/DemoSpatialMeshHandler.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Multimetr.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_SubMeshUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/SDK/Features/Input/Handlers/Constraints/RotationAxisConstraint.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.17/Editor/Metadata/XRPackageMetadata.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RopeRoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DistanceJoint3D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/Core/Utilities/MaintainBorderLightWidth.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/Services/InputSystem/NearInteractionGrabbable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/Core/Utilities/Rendering/MaterialInstance.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextureSender.cs" root0="FORCE_HIGHLIGHTING" />
@@ -72,7 +99,6 @@
       <option value="$PROJECT_DIR$/Assets/PullOfObjectsInKaste.cs" />
       <option value="$PROJECT_DIR$/Assets/OpenKiste.cs" />
       <option value="$PROJECT_DIR$/Assets/StartObjectDisable.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/StopTapPlaceContent.cs" />
       <option value="$PROJECT_DIR$/Assets/OpenDoorKiste.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DistanceJoint3D.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/FrictionJoint3D.cs" />
@@ -87,6 +113,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/ChangingColor.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CameraCollider.cs" />
       <option value="$PROJECT_DIR$/Assets/Multimetr.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlugInServer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/StopTapPlaceContent.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Multimetr/Multimetr.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1ohLcszEXc4iUtUqORwir94E0Hg" />
@@ -159,6 +188,8 @@
       <workItem from="1629114322520" duration="1256000" />
       <workItem from="1629376805623" duration="12678000" />
       <workItem from="1629977865829" duration="14344000" />
+      <workItem from="1630483571197" duration="1861000" />
+      <workItem from="1632204332125" duration="2950000" />
     </task>
     <servers />
   </component>

@@ -7,7 +7,9 @@ public class Multimetr : MonoBehaviour
 {
     [SerializeField] public GameObject FIToolTipBox;
     [SerializeField] public GameObject SocketToolTipBox;
-    [SerializeField] public GameObject FItoolTipBox;
+    [SerializeField] public GameObject Fuse_1_ToolTipBox;
+    [SerializeField] public GameObject Fuse_2_ToolTipBox;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +26,19 @@ public class Multimetr : MonoBehaviour
         {
             FIToolTipBox.SetActive(true);
         }
+        else if (other.gameObject.tag == "Socket")
+        {
+            SocketToolTipBox.SetActive(true);
+        }
+        else  if (other.gameObject.tag == "Fuse")
+        {
+            Fuse_1_ToolTipBox.SetActive(true);
+        }
+        else if (other.gameObject.tag == "Fuse_2")
+        {
+            Fuse_2_ToolTipBox.SetActive(true);
+        }
+
     }
 
     void OnTriggerExit(Collider other)
@@ -31,6 +46,18 @@ public class Multimetr : MonoBehaviour
         if (other.gameObject.tag == "FI")
         {
             FIToolTipBox.SetActive(false);
+        }
+       else if (other.gameObject.tag == "Socket")
+        {
+            SocketToolTipBox.SetActive(false);
+        }
+        else   if (other.gameObject.tag == "Fuse_1")
+        {
+            Fuse_1_ToolTipBox.SetActive(false);
+        }
+       else  if (other.gameObject.tag == "Fuse_2")
+        {
+            Fuse_2_ToolTipBox.SetActive(false);
         }
     }
 }

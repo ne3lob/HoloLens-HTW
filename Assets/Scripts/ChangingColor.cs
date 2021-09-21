@@ -11,10 +11,12 @@ public class ChangingColor : MonoBehaviour
     [SerializeField] private Material selectedMat;
 
     [SerializeField] private Material normalMat;
+   
 
     // Start is called before the first frame update
     void Start()
     {
+        
     }
 
     public void ChangeColor()
@@ -30,8 +32,19 @@ public class ChangingColor : MonoBehaviour
         }
     }
 
-    public void DisableFirst(GameObject first)
+    public void DisableFirst(GameObject black)
     {
-        first.SetActive(_activeSelected);
+
+
+        black.SetActive(_activeSelected );
+        
+        
+
+    }
+    public void DisableSecond(GameObject red)
+    {
+        
+        red.SetActive(_activeSelected );
+        
     }
 }

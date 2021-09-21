@@ -9,7 +9,10 @@ TagManager:
   - Point
   - PlaneLeft
   - PlaneBottom
-  - Box
+  - FI
+  - Socket
+  - Fuse_1
+  - Fuse_2
   layers:
   - Default
   - TransparentFX

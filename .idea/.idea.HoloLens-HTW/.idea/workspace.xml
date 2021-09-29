@@ -3,36 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="9c25ff79-e8fa-44c1-996e-9d518d0744b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HoloLens-HTW/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HoloLens-HTW/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/Teapot.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/Teapot.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/Teapot.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/Teapot.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_allUpDown.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_allUpDown.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_allaa.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_allaa.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_alls.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_alls.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_asket.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_asket.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_erver.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_erver.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_lock.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_lock.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_ocketWall 1.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_ocketWall 1.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_pdownCabel.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_pdownCabel.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_witch.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_witch.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/rightLeftCabel.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/rightLeftCabel.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/HandInteractionHololectrics.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/HandInteractionHololectrics.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Multimetr/Multimetr.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Multimetr/Multimetr.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlugInServer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlugInServer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StopTapPlaceContent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StopTapPlaceContent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/IconSetNew.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/IconSetNew.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/DefaultInteractableStates.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3DObjects/DefaultInteractableStates.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/SicherungKaste/SK_открывашка.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/SicherungKaste/SK_открывашка.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/HandInteractionHololectricsNEW.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/HandInteractionHololectricsNEW.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OpenDoorKiste.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OpenDoorKiste.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +85,6 @@
       <option value="$PROJECT_DIR$/Assets/SelectedObject.cs" />
       <option value="$PROJECT_DIR$/Assets/SocketIn.cs" />
       <option value="$PROJECT_DIR$/Assets/PlugInServer.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/OpenDoorKiste.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CableComponent.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DistanceMassband.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ChangingColor.cs" />
@@ -116,6 +93,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/PlugInServer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/StopTapPlaceContent.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Multimetr/Multimetr.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/OpenDoorKiste.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1ohLcszEXc4iUtUqORwir94E0Hg" />
@@ -190,6 +168,7 @@
       <workItem from="1629977865829" duration="14344000" />
       <workItem from="1630483571197" duration="1861000" />
       <workItem from="1632204332125" duration="2950000" />
+      <workItem from="1632813949701" duration="3934000" />
     </task>
     <servers />
   </component>

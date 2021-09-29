@@ -10,6 +10,11 @@ public class OpenDoorKiste : MonoBehaviour
     [SerializeField] private List<GameObject> FusesToolTip;
     [SerializeField] private List<GameObject> FisToolTip;
 
+    //Door Handel Animator
+    [SerializeField] private Animator _doorHandleAnimator;
+    private static readonly int OpenDoorHandle = Animator.StringToHash("OpenDoorHandle");
+    private static readonly int CloseDoorHandle = Animator.StringToHash("CloseDoorHandle");
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -46,6 +51,7 @@ public class OpenDoorKiste : MonoBehaviour
         foreach (var fuse in FusesToolTip)
         {
             fuse.SetActive(!open);
+            
         }
 
         foreach (var fi in FisToolTip)
@@ -56,10 +62,12 @@ public class OpenDoorKiste : MonoBehaviour
 
     public void SmallHandleDoorOpen()
     {
-        
+        _doorHandleAnimator.SetTrigger("OpenDoorHandle");
+        Debug.Log("Open Door");
     }
     public void SmallHandleDoorClose()
     {
-        
+        _doorHandleAnimator.SetTrigger("CloseDoorHandle");
+        Debug.Log("Close Door");
     }
 }

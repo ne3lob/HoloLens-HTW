@@ -17,13 +17,13 @@ public class ResidualCurrentDevice : MonoBehaviour
         switch (fiIsEnable)
         {
             case false:
-                GetComponent<Kaste_Switch>().Switching(_switchAnimator, "SwitchFi_On");
-                StartCoroutine(GetComponent<Kaste_Switch>().LabelCall(labelFiOn, 0.5f));
+                GetComponent<Switcher>().Switching(_switchAnimator, "SwitchFi_On");
+                StartCoroutine(GetComponent<Switcher>().LabelCall(labelFiOn, 0.5f));
                 fiIsEnable = true;
                 break;
             case true:
-                GetComponent<Kaste_Switch>().Switching(_switchAnimator, "SwitchFi_Off");
-                StartCoroutine(GetComponent<Kaste_Switch>().LabelCall(labelFiOff, 0.5f));
+                GetComponent<Switcher>().Switching(_switchAnimator, "SwitchFi_Off");
+                StartCoroutine(GetComponent<Switcher>().LabelCall(labelFiOff, 0.5f));
                 fiIsEnable = false;
                 break;
         }

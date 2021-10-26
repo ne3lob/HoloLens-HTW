@@ -12,7 +12,7 @@ public class ToolTipDisableAfterFocus : MonoBehaviour
     public void ToolTipDisable()
     {
         _focusCount++;
-        if (_focusCount > 1)
+        if (_focusCount > 5)
         {
             GetComponent<ToolTipSpawner>().enabled = false;
         }

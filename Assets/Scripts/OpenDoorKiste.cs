@@ -6,7 +6,7 @@ public class OpenDoorKiste : MonoBehaviour
 {
     private Vector3 targetRotationOpen;
     private Vector3 targetRotationClose;
-    private bool open;
+    private bool isPpenDoor;
     private AudioSource _audio;
 
 
@@ -26,27 +26,13 @@ public class OpenDoorKiste : MonoBehaviour
         targetRotationClose = new Vector3(0, -180, 0);
     }
 
-    IEnumerator LerpFunction(Quaternion endValue, float duration)
-    {
-        float time = 0;
-        Quaternion startValue = transform.localRotation;
-
-        while (time < duration)
-        {
-            transform.localRotation = Quaternion.Lerp(startValue, endValue, time / duration);
-            time += Time.deltaTime;
-            yield return null;
-        }
-
-        transform.localRotation = endValue;
-    }
 
     public void OpenDoor()
     {
-        open = !open;
-        StartCoroutine(open
-            ? LerpFunction(Quaternion.Euler(targetRotationOpen), 1)
-            : LerpFunction(Quaternion.Euler(targetRotationClose), 1));
+        _doorIsOpen = !_doorIsOpen;
+        StartCoroutine(_doorIsOpen
+            ? GetComponent<Lerping>().LerpFunction(Quaternion.Euler(targetRotationOpen), 1)
+            : GetComponent<Lerping>().LerpFunction(Quaternion.Euler(targetRotationClose), 1));
     }
 
     public void SmallHandleDoorOpen()
@@ -61,11 +47,8 @@ public class OpenDoorKiste : MonoBehaviour
 
     public void AudioDoor()
     {
-        _doorIsOpen = !_doorIsOpen;
         if (!_doorIsOpen)
         {
-            Debug.Log("play");
-
             _audio.Play();
         }
     }

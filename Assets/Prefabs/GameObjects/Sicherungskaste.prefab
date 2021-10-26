@@ -583,6 +583,7 @@ GameObject:
   - component: {fileID: 7833724392815432582}
   - component: {fileID: 7035694778246836041}
   - component: {fileID: 7035694778246836047}
+  - component: {fileID: 1886850877257819800}
   - component: {fileID: 7035694778246836040}
   - component: {fileID: 7035694778246836046}
   - component: {fileID: 7035694778246836044}
@@ -689,6 +690,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowTetherWhenManipulating: 0
   IsBoundsHandles: 0
+--- !u!114 &1886850877257819800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7035694778246836043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f88be2d002e2e9e45be42ee288e7fe92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &7035694778246836040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -937,7 +950,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 972a591b761ab874c9ad10c6f128c584, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toolTip: {fileID: 0}
 --- !u!82 &7035694778246836032
 AudioSource:
   m_ObjectHideFlags: 0

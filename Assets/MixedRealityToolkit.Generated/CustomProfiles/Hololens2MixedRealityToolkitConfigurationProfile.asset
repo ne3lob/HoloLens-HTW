@@ -24,7 +24,7 @@ MonoBehaviour:
   inputSystemProfile: {fileID: 11400000, guid: daa3c2bf80d66344cb5dd28c3ce992a4, type: 2}
   inputSystemType:
     reference: Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSystem, Microsoft.MixedReality.Toolkit.Services.InputSystem
-  enableBoundarySystem: 1
+  enableBoundarySystem: 0
   boundarySystemType:
     reference: Microsoft.MixedReality.Toolkit.XRSDK.XRSDKBoundarySystem, Microsoft.MixedReality.Toolkit.Providers.XRSDK
   xrsdkBoundarySystemType:

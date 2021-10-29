@@ -3,50 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="9c25ff79-e8fa-44c1-996e-9d518d0744b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HoloLens-HTW/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HoloLens-HTW/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/Server.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/Server.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_SJDFBKSJDF.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_SJDFBKSJDF.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_est.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_est.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_mallHandle.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_mallHandle.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_ubeBevel.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_ubeBevel.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FuseFirst.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FuseFirst.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Server.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Server.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Server/Server_Base.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Server/Server_Base.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Server/Server_Inside.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Server/Server_Inside.mat.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Generated/CustomProfiles/Hololens2MixedRealityToolkitConfigurationProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Generated/CustomProfiles/Hololens2MixedRealityToolkitConfigurationProfile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GameObjects/Sicherung_1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GameObjects/Sicherung_1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GameObjects/Sicherungskaste.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GameObjects/Sicherungskaste.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ToolTip/DoorToolTip.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ToolTip/DoorToolTip.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ToolTip/FIToolTip.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ToolTip/FIToolTip.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ToolTip/Sicherung1ToolTip.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ToolTip/Sicherung1ToolTip.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ToolTip/Sicherung2ToolTip.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ToolTip/Sicherung2ToolTip.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ResidualCurrentDevice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResidualCurrentDevice.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Models_HandInteractionHololectrics.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Models_HandInteractionHololectrics.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Kaste_Switch.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Kaste_Switch.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OpenDoorKiste.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OpenDoorKiste.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ToolTipDisableAfterFocus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ToolTipDisableAfterFocus.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Server.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Server.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Server/Server_Base.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Server/Server_Base/Server_Server_Base_AlbedoTransparency.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Server/Server_Base/Server_Server_Base_AlbedoTransparency.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Server/Server_Base/Server_Server_Base_MetallicSmoothness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Server/Server_Base/Server_Server_Base_MetallicSmoothness.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Server/Server_Base/Server_Server_Base_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Server/Server_Base/Server_Server_Base_Normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Server/Server_Inside.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Server/Server_Inside/Server_Server_Inside_AlbedoTransparency.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Server/Server_Inside/Server_Server_Inside_AlbedoTransparency.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Server/Server_Inside/Server_Server_Inside_MetallicSmoothness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Server/Server_Inside/Server_Server_Inside_MetallicSmoothness.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Server/Server_Inside/Server_Server_Inside_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Server/Server_Inside/Server_Server_Inside_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +57,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/CameraScrip.cs" />
       <option value="$PROJECT_DIR$/Assets/ChangeTexture.cs" />
       <option value="$PROJECT_DIR$/Assets/TextureSendRecieve/NetworkTexture.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ExampleReceiver.cs" />
@@ -144,6 +107,7 @@
       <option value="$PROJECT_DIR$/Assets/Lerping.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/OpenDoorKiste.cs" />
       <option value="$PROJECT_DIR$/Assets/ServerSwitch.cs" />
+      <option value="$PROJECT_DIR$/Assets/SnapingPlag.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1ohLcszEXc4iUtUqORwir94E0Hg" />
@@ -225,7 +189,7 @@
       <workItem from="1633708152750" duration="741000" />
       <workItem from="1633942547729" duration="11862000" />
       <workItem from="1635191921794" duration="3337000" />
-      <workItem from="1635224835099" duration="3163000" />
+      <workItem from="1635224835099" duration="7101000" />
     </task>
     <servers />
   </component>

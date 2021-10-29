@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using Microsoft.MixedReality.Toolkit.UI;
-using UnityEditor.VersionControl;
 using UnityEngine;
 
 public class SocketIn : MonoBehaviour
@@ -9,6 +8,7 @@ public class SocketIn : MonoBehaviour
     private PlugInServer _plugInServerScript;
 
     private GameObject _pluginInServerObject;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +16,7 @@ public class SocketIn : MonoBehaviour
         _plugInServerScript = _pluginInServerObject.GetComponent<PlugInServer>();
     }
 
- 
+
     // public void SelectedSocket()
     // {
     //     if (_plugInServerScript._isSelectedPlug)

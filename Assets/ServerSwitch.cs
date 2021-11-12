@@ -20,8 +20,8 @@ public class ServerSwitch : MonoBehaviour
     {
         switchServerIsOn = !switchServerIsOn;
         StartCoroutine(switchServerIsOn
-            ? GetComponent<Lerping>().LerpFunction(Quaternion.Euler( targetServerSwitchRotationOn), 0.1f)
-            : GetComponent<Lerping>().LerpFunction(Quaternion.Euler(targetServerSwitchRotationOff ), 0.1f));    }
+            ? GetComponent<Lerping>().LerpFunctionRotation(Quaternion.Euler( targetServerSwitchRotationOn), 0.1f)
+            : GetComponent<Lerping>().LerpFunctionRotation(Quaternion.Euler(targetServerSwitchRotationOff ), 0.1f));    }
 
 
     }

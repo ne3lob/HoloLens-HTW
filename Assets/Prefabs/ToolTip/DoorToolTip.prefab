@@ -315,8 +315,8 @@ MonoBehaviour:
   customLineTransform: {fileID: 0}
   loops: 0
   transformMode: 1
-  rotationMode: 1
-  flipUpVector: 0
+  rotationMode: 2
+  flipUpVector: 1
   originOffset: {x: 0, y: 0, z: 0}
   manualUpVectorBlend: 0
   manualUpVectors:
@@ -357,9 +357,9 @@ MonoBehaviour:
     rotation: {x: 0, y: 0, z: 0, w: 1}
   - position: {x: -0.18, y: 0.0073288158, z: 0.005862154}
     rotation: {x: 0, y: 0, z: 0, w: 1}
-  - position: {x: -0.07222654, y: 0.14929718, z: 0}
+  - position: {x: -0.020502403, y: 0.13612783, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
-  - position: {x: -0.19793785, y: 0.20961532, z: 0}
+  - position: {x: -0.14621371, y: 0.19644597, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   alignAllControlPoints: 1
 --- !u!114 &114815262729593704
@@ -509,22 +509,22 @@ LineRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Positions:
-  - {x: -0.000053991367, y: 0.0000022026836, z: 0.0000017582944}
-  - {x: -0.03235489, y: 0.0032031971, z: 0.0010224553}
-  - {x: -0.057912413, y: 0.009608283, z: 0.0017619221}
-  - {x: -0.07765267, y: 0.018833172, z: 0.0022514046}
-  - {x: -0.09250183, y: 0.03049359, z: 0.0025221491}
-  - {x: -0.103385985, y: 0.04420524, z: 0.002605402}
-  - {x: -0.11123126, y: 0.059583843, z: 0.0025324083}
-  - {x: -0.11696379, y: 0.076245114, z: 0.0023344152}
-  - {x: -0.1215097, y: 0.09380478, z: 0.0020426677}
-  - {x: -0.1257951, y: 0.11187852, z: 0.001688413}
-  - {x: -0.13074614, y: 0.1300821, z: 0.0013028962}
-  - {x: -0.13728893, y: 0.1480312, z: 0.000917364}
-  - {x: -0.14634961, y: 0.16534154, z: 0.0005630623}
-  - {x: -0.15885426, y: 0.18162885, z: 0.0002712371}
-  - {x: -0.17572908, y: 0.19650884, z: 0.000073134244}
-  - {x: -0.19790013, y: 0.20959723, z: 1.7590539e-10}
+  - {x: -0.000053989814, y: 0.0000022022884, z: 0.0000017582944}
+  - {x: -0.031694215, y: 0.0030349833, z: 0.0010224553}
+  - {x: -0.055396374, y: 0.00896768, z: 0.0017619221}
+  - {x: -0.072270386, y: 0.017462801, z: 0.0022514046}
+  - {x: -0.0834262, y: 0.028182866, z: 0.0025221491}
+  - {x: -0.089973725, y: 0.040790375, z: 0.002605402}
+  - {x: -0.093022875, y: 0.054947853, z: 0.0025324083}
+  - {x: -0.093683586, y: 0.0703178, z: 0.0023344152}
+  - {x: -0.09306577, y: 0.086562745, z: 0.0020426677}
+  - {x: -0.09227935, y: 0.10334517, z: 0.001688413}
+  - {x: -0.092434265, y: 0.12032762, z: 0.0013028962}
+  - {x: -0.09464042, y: 0.13717258, z: 0.000917364}
+  - {x: -0.10000776, y: 0.15354256, z: 0.0005630623}
+  - {x: -0.10964618, y: 0.1691001, z: 0.0002712371}
+  - {x: -0.124665625, y: 0.18350771, z: 0.000073134244}
+  - {x: -0.146176, y: 0.19642788, z: 1.7590539e-10}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.01
@@ -598,7 +598,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4961073448204456}
-  - component: {fileID: 1128152292871104097}
   m_Layer: 0
   m_Name: ContentParent
   m_TagString: Untagged
@@ -621,20 +620,6 @@ Transform:
   m_Father: {fileID: 4829571204916076}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1128152292871104097
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1582682964526084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2547b4dd088644d6aaf64f45df657c79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pivotAxis: 0
-  targetTransform: {fileID: 0}
 --- !u!1 &1592911157791456
 GameObject:
   m_ObjectHideFlags: 0

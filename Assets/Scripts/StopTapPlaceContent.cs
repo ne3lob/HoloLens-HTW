@@ -28,8 +28,8 @@ public class StopTapPlaceContent : MonoBehaviour
 
     }
 
-    public void ChangeBool()
-    {
-        disablePlacement = true;
-    }
+    // public void ChangeBool()
+    // {
+    //     disablePlacement = true;
+    // }
 }

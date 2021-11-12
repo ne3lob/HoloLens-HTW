@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Lerping : MonoBehaviour
 {
-   public IEnumerator LerpFunction(Quaternion endValue, float duration)
+    public IEnumerator LerpFunctionRotation(Quaternion endValue, float duration)
     {
         float time = 0;
         Quaternion startValue = transform.localRotation;
@@ -17,5 +17,19 @@ public class Lerping : MonoBehaviour
         }
 
         transform.localRotation = endValue;
+    }
+
+    public IEnumerator LerpFunctionPosition(Vector3 startPosition, Vector3 endPosition, float duration)
+    {
+        float time = 0;
+
+        while (time < duration)
+        {
+            transform.position = Vector3.Lerp(startPosition, endPosition, time / duration);
+            time += Time.deltaTime;
+            yield return null;
+        }
+
+        transform.position = endPosition;
     }
 }

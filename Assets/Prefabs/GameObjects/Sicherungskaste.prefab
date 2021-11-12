@@ -570,6 +570,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &6220387975538952832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2990061055591589909}
+  m_Layer: 0
+  m_Name: Anchor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2990061055591589909
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6220387975538952832}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3065670747728052826}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7035694778246836043
 GameObject:
   m_ObjectHideFlags: 0
@@ -611,6 +641,7 @@ Transform:
   m_LocalScale: {x: 0.013724747, y: 0.5248076, z: 0.38117355}
   m_Children:
   - {fileID: 5307598834799446130}
+  - {fileID: 2990061055591589909}
   m_Father: {fileID: 29052225582572471}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
@@ -899,19 +930,19 @@ MonoBehaviour:
   vanishDelay: 0.87
   lifetime: 1.53
   keepWorldRotation: 1
-  settingsMode: 0
+  settingsMode: 1
   showBackground: 0
   showOutline: 0
   showConnector: 1
-  followType: 1
+  followType: 2
   pivotMode: 2
-  pivotDirection: 2
-  pivotDirectionOrient: 0
+  pivotDirection: 1
+  pivotDirectionOrient: 1
   manualPivotDirection: {x: 0, y: 1, z: 0}
   manualPivotLocalPosition: {x: 0, y: 1, z: 0}
   pivotDistance: 0.25
   toolTipText: SICHERUNGKASTEN
-  anchor: {fileID: 0}
+  anchor: {fileID: 2990061055591589909}
 --- !u!114 &7035694778246836045
 MonoBehaviour:
   m_ObjectHideFlags: 0

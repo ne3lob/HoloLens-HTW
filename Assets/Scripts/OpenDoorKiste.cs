@@ -31,8 +31,8 @@ public class OpenDoorKiste : MonoBehaviour
     {
         _doorIsOpen = !_doorIsOpen;
         StartCoroutine(_doorIsOpen
-            ? GetComponent<Lerping>().LerpFunction(Quaternion.Euler(targetRotationOpen), 1)
-            : GetComponent<Lerping>().LerpFunction(Quaternion.Euler(targetRotationClose), 1));
+            ? GetComponent<Lerping>().LerpFunctionRotation(Quaternion.Euler(targetRotationOpen), 1)
+            : GetComponent<Lerping>().LerpFunctionRotation(Quaternion.Euler(targetRotationClose), 1));
     }
 
     public void SmallHandleDoorOpen()

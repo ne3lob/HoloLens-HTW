@@ -223,9 +223,8 @@ GameObject:
   - component: {fileID: 114469678959493348}
   - component: {fileID: 114815262729593704}
   - component: {fileID: 120134443969394850}
-  - component: {fileID: 7516331469184379006}
   m_Layer: 0
-  m_Name: Socket
+  m_Name: SocketToolTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -568,27 +567,6 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
---- !u!114 &7516331469184379006
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1379707608131922}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60e108b635a73db40a8d3c02d87c249f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  toolTip: {fileID: 114494227601126774}
-  connectorFollowType: 1
-  pivotMode: 0
-  pivotDirection: 1
-  pivotDirectionOrient: 0
-  manualPivotDirection: {x: 0, y: 1, z: 0}
-  manualPivotLocalPosition: {x: 0, y: 1, z: 0}
-  pivotDistance: 0.25
 --- !u!1 &1582682964526084
 GameObject:
   m_ObjectHideFlags: 0

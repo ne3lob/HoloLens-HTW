@@ -3,26 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="9c25ff79-e8fa-44c1-996e-9d518d0744b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HoloLens-HTW/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HoloLens-HTW/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lerping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lerping.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Server.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Server.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Generated/CustomProfiles/Hololens2MixedRealityHandTrackingProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Generated/CustomProfiles/Hololens2MixedRealityHandTrackingProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/Abzweigdose.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/Abzweigdose.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/Sicherung.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/Sicherung.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DisableObjectInAwake.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DisableObjectInAwake.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FuseFirst.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FuseFirst.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/AbzweigdoseM/No Name.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/AbzweigdoseM/No Name.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/New folder.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Generated/ProjectPreferences.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Generated/ProjectPreferences.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GameObjects/Sicherungskaste.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GameObjects/Sicherungskaste.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ToolTip/DoorToolTip.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ToolTip/DoorToolTip.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ToolTip/SocketToolTip.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ToolTip/SocketToolTip.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Experimental - Elastic/Scenes/ElasticSystemExamples.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Experimental - Elastic/Scenes/ElasticSystemExamples.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/HandInteractionHololectrics.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/HandInteractionHololectrics.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Models_HandInteractionHololectrics 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Models_HandInteractionHololectrics 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResidualCurrentDevice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResidualCurrentDevice.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Models_HandInteractionHololectrics.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Models_HandInteractionHololectrics.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/OpenDoorKiste.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OpenDoorKiste.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StopTapPlaceContent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StopTapPlaceContent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ServerSwitch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ServerSwitch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SnapingPlag.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SnapingPlag.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/Windows MR Package Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/Settings/Windows MR Package Settings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XR/XRGeneralSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/XRGeneralSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Switcher.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Switcher.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Server.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Server.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +39,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/Services/InputSystem/NearInteractionGrabbable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextureSender.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sicherungen/FuseSecond.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/Core/Utilities/StandardShader/ClippingSphere.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.examples@2.7.2/Common/Scripts/DemoSpatialMeshHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DistanceJoint3D.cs" root0="FORCE_HIGHLIGHTING" />
@@ -63,10 +60,10 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/SDK/Features/UX/Scripts/Tooltips/ToolTipSpawner.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Server.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ServerSwitch.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FuseFirst.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DoorToolTipRotation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/SDK/Features/Input/Handlers/CursorContextObjectManipulator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ResidualCurrentDevice.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sicherungen/FuseThird.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -207,6 +204,9 @@
       <workItem from="1635800470353" duration="5925000" />
       <workItem from="1635835626541" duration="5837000" />
       <workItem from="1636699313560" duration="3520000" />
+      <workItem from="1637438694158" duration="6096000" />
+      <workItem from="1637489385888" duration="4950000" />
+      <workItem from="1637512756315" duration="1475000" />
     </task>
     <servers />
   </component>

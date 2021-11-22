@@ -16,12 +16,12 @@ public class Server : MonoBehaviour
         {
             case false:
 
-                StartCoroutine(GetComponent<Switcher>().LabelCall(labelServerOn, 0.5f));
+                StartCoroutine(GetComponent<SwitcherLabel>().LabelCall(labelServerOn, 0.5f));
                 serverIsEnable = true;
                 break;
             case true:
 
-                StartCoroutine(GetComponent<Switcher>().LabelCall(labelServerOff, 0.5f));
+                StartCoroutine(GetComponent<SwitcherLabel>().LabelCall(labelServerOff, 0.5f));
                 serverIsEnable = false;
                 break;
         }

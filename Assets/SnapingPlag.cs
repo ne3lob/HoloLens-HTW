@@ -17,22 +17,37 @@ public class SnapingPlag : MonoBehaviour
     private Vector3 targetPlugPosition;
 
     private AudioSource audioPlug;
+
     // Start is called before the first frame update
     void Start()
     {
         startPlugRotation = plugGameObject.transform.rotation;
-        targetPlugRotation = Quaternion.Euler(-90, 0, 90);
-
         startPlugPosition = plugGameObject.transform.position;
         targetPlugPosition = socketGameObject.transform.position;
         audioPlug = GetComponent<AudioSource>();
     }
 
+
     // Update is called once per frame
     public void PlugRotationToTarger()
     {
-        StartCoroutine(GetComponent<Lerping>().LerpFunctionRotation(targetPlugRotation, 0.5f));
-        plugGameObject.transform.rotation = targetPlugRotation;
+        if (plugGameObject.transform.rotation != targetPlugRotation)
+        {
+            targetPlugRotation = socketGameObject.transform.rotation;
+            StartCoroutine(GetComponent<Lerping>().LerpFunctionRotation(targetPlugRotation, 0.5f));
+            plugGameObject.transform.rotation = targetPlugRotation;
+        }
+    }
+
+    private int _fistConnectionWitchPlug = 0;
+
+    public void SaveStartPositionPlug()
+    {
+        if (_fistConnectionWitchPlug < 1)
+        {
+            startPlugPosition = plugGameObject.transform.position;
+            _fistConnectionWitchPlug++;
+        }
     }
 
     public void PlugRotationToStart()
@@ -54,8 +69,8 @@ public class SnapingPlag : MonoBehaviour
 
     private void CheckDistance(GameObject startPointObject, GameObject targetPointObject)
     {
+        targetPlugPosition = socketGameObject.transform.position;
         _distance = Vector3.Distance(startPointObject.transform.position, targetPointObject.transform.position);
-
 
         StartCoroutine(_distance < 0.12f ? GetComponent<Lerping>().LerpFunctionPosition(plugGameObject.transform.position, targetPlugPosition, 0.2f) : GetComponent<Lerping>().LerpFunctionPosition(plugGameObject.transform.position, startPlugPosition, 0.2f));
     }

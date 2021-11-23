@@ -3,7 +3,32 @@ guid: 0376cf0c776ee494091aa3166603233e
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Base.007
+    second: {fileID: 2100000, guid: 29870ab1725784745995c3a66915fc2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dots.011
+    second: {fileID: 2100000, guid: d668ce0d9cef01b47914333160890ff1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.042
+    second: {fileID: 2100000, guid: 7d952ac8cf8f19f459ef97d99131019d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.043
+    second: {fileID: 2100000, guid: 6ce8fd36c68652645a6834ccb1462997, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MiddleDot.007
+    second: {fileID: 2100000, guid: ee870618f3ea21c4c9963161a8c939c5, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

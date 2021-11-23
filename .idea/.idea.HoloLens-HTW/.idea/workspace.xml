@@ -3,22 +3,55 @@
   <component name="ChangeListManager">
     <list default="true" id="9c25ff79-e8fa-44c1-996e-9d518d0744b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HoloLens-HTW/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HoloLens-HTW/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/Abzweigdose.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/Abzweigdose.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/Sicherung.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/Sicherung.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DisableObjectInAwake.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DisableObjectInAwake.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FuseFirst.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FuseFirst.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/AbzweigdoseM/No Name.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/AbzweigdoseM/No Name.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/New folder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_ocketClean.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3DObjects/_ocketClean.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DObjects/_ocketClean.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3DObjects/_ocketClean.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Socket.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Socket.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Socket/Base.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Socket/Base.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Socket/Dots.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Socket/Dots.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Socket/Material.001.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Socket/Material.001.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Socket/MiddleDot.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Socket/MiddleDot.mat.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Generated/ProjectPreferences.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Generated/ProjectPreferences.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ResidualCurrentDevice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ResidualCurrentDevice.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Models_HandInteractionHololectrics.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Models_HandInteractionHololectrics.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OpenDoorKiste.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OpenDoorKiste.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Switcher.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Switcher.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Server.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Server.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SnapingPlag.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SnapingPlag.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Socket.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.002_AO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.002_AO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.002_AlbedoTransparency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.002_AlbedoTransparency.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.002_MetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.002_MetallicSmoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.002_MetallicSmoothness_Channel.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.002_MetallicSmoothness_Channel.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.002_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.002_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.003_AO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.003_AO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.003_AlbedoTransparency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.003_AlbedoTransparency.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.003_MetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.003_MetallicSmoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.003_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.003_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.004_AO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.004_AO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.004_AlbedoTransparency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.004_AlbedoTransparency.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.004_MetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.004_MetallicSmoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.004_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.004_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.005_AO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.005_AO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.005_AlbedoTransparency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.005_AlbedoTransparency.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.005_MetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.005_MetallicSmoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.005_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Socket/Socket_Material.005_Normal.png.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,6 +240,7 @@
       <workItem from="1637438694158" duration="6096000" />
       <workItem from="1637489385888" duration="4950000" />
       <workItem from="1637512756315" duration="1475000" />
+      <workItem from="1637648964496" duration="3568000" />
     </task>
     <servers />
   </component>

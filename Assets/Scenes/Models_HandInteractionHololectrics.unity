@@ -55162,7 +55162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa162a1be707e7f4bb2c94f4fd6df84f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineMaterial: {fileID: 2100000, guid: 96aa9e6f7a334494581a11330638bcaa, type: 2}
+  outlineMaterial: {fileID: 2100000, guid: ea3b5b1ffe392e14ab708279392127ac, type: 2}
   outlineWidth: 0.008
 --- !u!114 &3159218861495110915
 MonoBehaviour:

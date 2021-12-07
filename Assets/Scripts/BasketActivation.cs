@@ -11,6 +11,6 @@ public class BasketActivation : MonoBehaviour
 
     public void BasketActivator()
     {
-        this.gameObject.SetActive(!this.gameObject.activeSelf);
+        gameObject.SetActive(!gameObject.activeSelf);
     }
 }

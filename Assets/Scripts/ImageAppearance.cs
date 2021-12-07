@@ -21,14 +21,11 @@ public class ImageAppearance : MonoBehaviour
     {
         firstExercize = false;
     }
-   
+
 
     public void ImageScalingUp()
     {
-        // if (firstExercize)
-        // {
-            StartCoroutine(ScaleOverTime(1f, 0f, 1280f));
-                // }
+        StartCoroutine(ScaleOverTime(1f, 0f, 1280f));
     }
 
     public void ImageScalingDown()

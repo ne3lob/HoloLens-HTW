@@ -31,7 +31,7 @@ namespace TextureSendReceive
 
             RenderTexture.active = camera.targetTexture;
             image.texture = camera.targetTexture;
-            ButtonNext.SetActive(false);
+           // ButtonNext.SetActive(false);
         }
 
         private int _countScreenshots;
@@ -54,7 +54,7 @@ namespace TextureSendReceive
             ScreenshotToggle();
         }
         
-        [SerializeField] private GameObject ButtonNext;
+        //[SerializeField] private GameObject ButtonNext;
         void ScreenshotToggle()
         {
             switch (_countScreenshots)
@@ -69,7 +69,7 @@ namespace TextureSendReceive
                     break;
                 case 3:
                     thirdScreenshootToggle.SetActive(true);
-                   ButtonNext.SetActive(true);
+                   //ButtonNext.SetActive(true);
                     break;
             }
         }

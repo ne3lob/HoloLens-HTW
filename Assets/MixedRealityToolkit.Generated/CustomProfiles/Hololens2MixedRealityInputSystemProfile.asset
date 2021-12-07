@@ -22,13 +22,6 @@ MonoBehaviour:
     runtimePlatform: 9
     deviceManagerProfile: {fileID: 0}
   - componentType:
-      reference: Microsoft.MixedReality.Toolkit.XRSDK.Oculus.Input.OculusXRSDKDeviceManager,
-        Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus
-    componentName: XRSDK Oculus Device Manager
-    priority: 0
-    runtimePlatform: 33
-    deviceManagerProfile: {fileID: 11400000, guid: 8f48cb9c26fb518499c65c9f9e8bb4ed, type: 2}
-  - componentType:
       reference: Microsoft.MixedReality.Toolkit.Input.InputSimulationService, Microsoft.MixedReality.Toolkit.Services.InputSimulation
     componentName: Input Simulation Service
     priority: 0
@@ -64,7 +57,7 @@ MonoBehaviour:
   inputActionsProfile: {fileID: 11400000, guid: 723eb97b02944311b92861f473eee53e, type: 2}
   inputActionRulesProfile: {fileID: 11400000, guid: 03945385d89102f41855bc8f5116b199, type: 2}
   pointerProfile: {fileID: 11400000, guid: 7b1b59b1285b7bf40bc9be11fe9c0411, type: 2}
-  gesturesProfile: {fileID: 11400000, guid: 057cb6227704cc648a0b48ce797db210, type: 2}
+  gesturesProfile: {fileID: 11400000, guid: bd7829a9b29409045a745b5a18299291, type: 2}
   speechCommandsProfile: {fileID: 11400000, guid: e8d0393e66374dae9646851a57dc6bc1, type: 2}
   enableControllerMapping: 1
   controllerMappingProfile: {fileID: 11400000, guid: 39ded1fd0711a0c448413d0e1ec4f7f3, type: 2}

@@ -13,6 +13,8 @@ public class SwitchingAnimation : MonoBehaviour
     private FuseFirst _fF;
 
     private FuseSecond _fS;
+    
+    private FuseThird _fT;
 
     //private FuseThird _fT;
     private ResidualCurrentDevice _rD;
@@ -21,6 +23,7 @@ public class SwitchingAnimation : MonoBehaviour
     {
         _fF = GameObject.Find("BaseSicherungFirst").GetComponent<FuseFirst>();
         _fS = GameObject.Find("BaseSicherungSecond").GetComponent<FuseSecond>();
+        _fT = GameObject.Find("BaseSicherungThird").GetComponent<FuseThird>();
         _rD = GameObject.Find("BaseFI").GetComponent<ResidualCurrentDevice>();
     }
 
@@ -49,10 +52,10 @@ public class SwitchingAnimation : MonoBehaviour
         LerpingSwitcher(_fS.fuseSecondIsEnable);
     }
 
-    // public void TurnSwitcherThirdFuse()
-    // {
-    //     LerpingSwitcher(_fT.fuseThirdIsEnable);
-    // }
+     public void TurnSwitcherThirdFuse()
+     {
+         LerpingSwitcher(_fT.fuseThirdIsEnable);
+     }
     public void TurnSwitcherResidualCurrentDevice()
     {
         LerpingSwitcher(_rD.fiIsEnable);

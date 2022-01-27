@@ -9,11 +9,12 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Abzweigdose.Kabel2
   m_Shader: {fileID: 4800000, guid: 5bdea20278144b11916d77503ba1467a, type: 3}
-  m_ShaderKeywords: _DIRECTIONAL_LIGHT _HOVER_LIGHT _REFLECTIONS _SPECULAR_HIGHLIGHTS
+  m_ShaderKeywords: _DIRECTIONAL_LIGHT _DISABLE_ALBEDO_MAP _HOVER_LIGHT _REFLECTIONS
+    _SPECULAR_HIGHLIGHTS
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
+  m_CustomRenderQueue: 1
   stringTagMap:
     RenderType: Opaque
   disabledShaderPasses: []
@@ -132,7 +133,7 @@ Material:
     - _Reflections: 1
     - _Refraction: 0
     - _RefractiveIndex: 0
-    - _RenderQueueOverride: -1
+    - _RenderQueueOverride: 1
     - _RimLight: 0
     - _RimPower: 0.25
     - _RoundCornerMargin: 0.01

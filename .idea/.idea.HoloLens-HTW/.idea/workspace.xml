@@ -3,79 +3,205 @@
   <component name="ChangeListManager">
     <list default="true" id="9c25ff79-e8fa-44c1-996e-9d518d0744b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HoloLens-HTW/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HoloLens-HTW/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Billboard 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Billboard 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Billboard 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Billboard 2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/OutlineGreen.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/OutlineGreen.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Generated/CustomProfiles/Hololens2MixedRealityInputSystemProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Generated/CustomProfiles/Hololens2MixedRealityInputSystemProfile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/ButtonBox_BodyFace_mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/ButtonBox_BodyFace_mat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/ButtonBox_BodyFace_mat.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/ButtonBox_BodyFace_mat.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_3x1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_3x1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_3x1.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_3x1.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_3x1_Circles.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_3x1_Circles.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_3x1_Circles.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_3x1_Circles.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_3x2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_3x2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_3x2.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_3x2.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_3x3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_3x3.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_3x3.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_3x3.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_3x4.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_3x4.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_3x4.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_3x4.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_3x6.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_3x6.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_3x6.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_3x6.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_4x1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_4x1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_4x1.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_4x1.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_Placeholder.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_Placeholder.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_Placeholder.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenuIcon_Placeholder.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenu_AppButton_Backplate_Blue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenu_AppButton_Backplate_Blue.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenu_AppButton_Backplate_Blue.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenu_AppButton_Backplate_Blue.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenu_AppButton_Backplate_Pink.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenu_AppButton_Backplate_Pink.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenu_AppButton_Backplate_Pink.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenu_AppButton_Backplate_Pink.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenu_AppButton_Backplate_Purple.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenu_AppButton_Backplate_Purple.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenu_AppButton_Backplate_Purple.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenu_AppButton_Backplate_Purple.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenu_AppButton_Backplate_Yellow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenu_AppButton_Backplate_Yellow.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenu_AppButton_Backplate_Yellow.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenu_AppButton_Backplate_Yellow.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenu_Backplate.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenu_Backplate.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenu_Backplate.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenu_Backplate.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenu_Backplate_Circle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenu_Backplate_Circle.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenu_Backplate_Circle.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenu_Backplate_Circle.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenu_ToggleDialog_Backplate.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenu_ToggleDialog_Backplate.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenu_ToggleDialog_Backplate.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Materials/HandMenu_ToggleDialog_Backplate.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Models.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Models.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Models/Circle.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Models/Circle.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Models/CompressableCylinderVisuals.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Models/CompressableCylinderVisuals.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Prefabs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Prefabs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Prefabs/PalmUpHandMenu_AboveFingertips_3x2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Prefabs/PalmUpHandMenu_AboveFingertips_3x2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Prefabs/PalmUpHandMenu_AboveFingertips_3x2.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Prefabs/PalmUpHandMenu_AboveFingertips_3x2.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Prefabs/PalmUpHandMenu_AboveFingertips_3x4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Prefabs/PalmUpHandMenu_AboveFingertips_3x4.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Prefabs/PalmUpHandMenu_AboveFingertips_3x4.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Prefabs/PalmUpHandMenu_AboveFingertips_3x4.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Prefabs/PalmUpHandMenu_InPalm_3x3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Prefabs/PalmUpHandMenu_InPalm_3x3.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Prefabs/PalmUpHandMenu_InPalm_3x3.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Prefabs/PalmUpHandMenu_InPalm_3x3.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Prefabs/PalmUpHandMenu_Side_1x3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Prefabs/PalmUpHandMenu_Side_1x3.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Prefabs/PalmUpHandMenu_Side_1x3.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Prefabs/PalmUpHandMenu_Side_1x3.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Prefabs/PalmUpHandMenu_Side_1x3_Circles.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Prefabs/PalmUpHandMenu_Side_1x3_Circles.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Prefabs/PalmUpHandMenu_Side_1x3_Circles.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Prefabs/PalmUpHandMenu_Side_1x3_Circles.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Prefabs/PalmUpHandMenu_Side_1x4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Prefabs/PalmUpHandMenu_Side_1x4.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Prefabs/PalmUpHandMenu_Side_1x4.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Prefabs/PalmUpHandMenu_Side_1x4.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Prefabs/PressableButtonHoloLens2_AppButton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Prefabs/PressableButtonHoloLens2_AppButton.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Prefabs/PressableButtonHoloLens2_AppButton.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Prefabs/PressableButtonHoloLens2_AppButton.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Scenes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Scenes.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Scenes/HandMenuLayoutExamples.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Scenes/HandMenuLayoutExamples.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Textures.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Textures.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Textures/HandMenu_Icon_3x1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Textures/HandMenu_Icon_3x1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Textures/HandMenu_Icon_3x1_Circles.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Textures/HandMenu_Icon_3x1_Circles.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Textures/HandMenu_Icon_3x2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Textures/HandMenu_Icon_3x2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Textures/HandMenu_Icon_3x3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Textures/HandMenu_Icon_3x3.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Textures/HandMenu_Icon_3x4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Textures/HandMenu_Icon_3x4.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Textures/HandMenu_Icon_3x6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Textures/HandMenu_Icon_3x6.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Textures/HandMenu_Icon_4x1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Textures/HandMenu_Icon_4x1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Textures/PlaceholderIcon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - HandMenuLayout/Textures/PlaceholderIcon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Abzweigdose/Abzweigdose.Base.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Abzweigdose/Abzweigdose.Base.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Abzweigdose/Abzweigdose.Kabel1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Abzweigdose/Abzweigdose.Kabel1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Abzweigdose/Abzweigdose.Kabel2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Abzweigdose/Abzweigdose.Kabel2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Abzweigdose/Abzweigdose.Kabel3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Abzweigdose/Abzweigdose.Kabel3.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Abzweigdose/Abzweigdose.Kabel4.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Abzweigdose/Abzweigdose.Kabel4.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/AbzweigdoseM.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/AbzweigdoseM.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/FI/S_Nuts.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/FI/S_Nuts.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/FI/S_Switch.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/FI/S_Switch.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Sicherung/S_Switch.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Sicherung/S_Switch.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Socket/Base.007.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Socket/Base.007.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Walls.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Walls.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/WallsClipping.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/WallsClipping.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Generated/CustomProfiles/Hololens2MixedRealitySpatialAwarenessMeshObserverProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Generated/CustomProfiles/Hololens2MixedRealitySpatialAwarenessMeshObserverProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/BoundingBox.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/BoundingBox/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/BoundingBox/Scenes/BoundingBoxExamples.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/BoundingBox/Scenes/BoundingBoxExamples.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/BoundingBox/Scenes/BoundingBoxExamplesSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/BoundingBox/Scenes/BoundingBoxExamplesSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/BoundingBox/Scenes/BoundingBoxRuntimeExample.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/BoundingBox/Scenes/BoundingBoxRuntimeExample.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/BoundingBox/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/BoundingBox/Scripts/BoundingBoxExampleTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/BoundingBox/Scripts/BoundingBoxExampleTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/BoundsControl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/BoundsControl/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/BoundsControl/Scenes/BoundsControlConfigs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/BoundsControl/Scenes/BoundsControlConfigs/CoffeeCupTranslateHandlesConfiguration.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/BoundsControl/Scenes/BoundsControlConfigs/CoffeeCupTranslateHandlesConfiguration.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/BoundsControl/Scenes/BoundsControlExamples.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/BoundsControl/Scenes/BoundsControlExamples.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/BoundsControl/Scenes/BoundsControlRuntimeExample.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/BoundsControl/Scenes/BoundsControlRuntimeExample.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/BoundsControl/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/BoundsControl/Scripts/BoundsControlRuntimeExample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/BoundsControl/Scripts/BoundsControlRuntimeExample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Collections.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Collections/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Collections/Scenes/ObjectCollectionExamples.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Collections/Scenes/ObjectCollectionExamples.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Collections/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Collections/Scripts/GridObjectLayoutControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Collections/Scripts/GridObjectLayoutControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/MRTK.Demos.UX.Interactables.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/MRTK.Demos.UX.Interactables.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Materials/PhysicalTouchIcon.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Materials/PhysicalTouchIcon.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Materials/TextureInteractable.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Materials/TextureInteractable.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Prefabs/Model_Bucky.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Prefabs/Model_Bucky.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Prefabs/Model_PushButton.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Prefabs/Model_PushButton.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Prefabs/balloon.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Prefabs/balloon.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Profiles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Profiles/Interactable_MixedRealityInputSystemProfile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Profiles/Interactable_MixedRealityInputSystemProfile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Profiles/Interactable_MixedRealitySpeechCommandsProfile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Profiles/Interactable_MixedRealitySpeechCommandsProfile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Profiles/Interactable_MixedRealityToolkitConfigurationProfile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Profiles/Interactable_MixedRealityToolkitConfigurationProfile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Scenes/InteractablesExamples.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Scenes/InteractablesExamples.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Scenes/InteractablesExamplesSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Scenes/InteractablesExamplesSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Scripts/CustomInteractablesReceiver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Scripts/CustomInteractablesReceiver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Textures/PhysicalTouch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Interactables/Textures/PhysicalTouch.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Lines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Lines/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Lines/Materials/OpaqueLinesMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Lines/Materials/OpaqueLinesMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Lines/Materials/TransparentLinesMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Lines/Materials/TransparentLinesMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Lines/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Lines/Scenes/LineExamples.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Lines/Scenes/LineExamples.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/ManipulationHandler.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/ManipulationHandler/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/ManipulationHandler/Scenes/ManipulationHandlerExample.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/ManipulationHandler/Scenes/ManipulationHandlerExample.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/ManipulationHandler/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/ManipulationHandler/Scripts/ChangeManipulation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/ManipulationHandler/Scripts/ChangeManipulation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/ObjectManipulator.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/ObjectManipulator/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/ObjectManipulator/Scenes/ObjectManipulatorExample.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/ObjectManipulator/Scenes/ObjectManipulatorExample.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/ObjectManipulator/Scenes/ObjectManipulatorExamplePhysics.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/ObjectManipulator/Scenes/ObjectManipulatorExamplePhysics.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/ObjectManipulator/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/ObjectManipulator/Scripts/ReturnToBounds.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/ObjectManipulator/Scripts/ReturnToBounds.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/PressableButton.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/PressableButton/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/PressableButton/Scenes/PressableButtonExample.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/PressableButton/Scenes/PressableButtonExample.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/ProgressIndicator.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/ProgressIndicator/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/ProgressIndicator/Scenes/ProgressIndicatorExamples.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/ProgressIndicator/Scenes/ProgressIndicatorExamples.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/ProgressIndicator/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/ProgressIndicator/Scripts/ProgressIndicatorDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/ProgressIndicator/Scripts/ProgressIndicatorDemo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Slate.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Slate/SlateExample.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Slate/SlateExample.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Slider.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Slider/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Slider/Scenes/SliderExample.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Slider/Scenes/SliderExample.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Slider/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Slider/Scripts/SliderLunarLander.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Slider/Scripts/SliderLunarLander.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Text.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Text/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Text/Scenes/TextPrefabExamples.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Text/Scenes/TextPrefabExamples.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Tooltips.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Tooltips/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Tooltips/Scenes/TooltipExamples.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - UX/Tooltips/Scenes/TooltipExamples.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - PulseShader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - PulseShader/Profile.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - PulseShader/Profile/PulseShaderConfigurationProfile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - PulseShader/Profile/PulseShaderConfigurationProfile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - PulseShader/Profile/PulseShaderHandTrackingProfile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - PulseShader/Profile/PulseShaderHandTrackingProfile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - PulseShader/Profile/PulseShaderInputSystemProfile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - PulseShader/Profile/PulseShaderInputSystemProfile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - PulseShader/Profile/PulseShaderSpatialAwarenessMeshObserverProfile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - PulseShader/Profile/PulseShaderSpatialAwarenessMeshObserverProfile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - PulseShader/Profile/PulseShaderSpatialAwarenessSystemProfile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - PulseShader/Profile/PulseShaderSpatialAwarenessSystemProfile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - PulseShader/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - PulseShader/Scenes/PulseShaderHandMeshExample.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - PulseShader/Scenes/PulseShaderHandMeshExample.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - PulseShader/Scenes/PulseShaderSpatialMeshExample.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - PulseShader/Scenes/PulseShaderSpatialMeshExample.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - PulseShader/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - PulseShader/Scripts/HideOnDevice.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - PulseShader/Scripts/HideOnDevice.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/Prefabs/Placard.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/Prefabs/Placard.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/Scenes/ClippingExamples.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/Scenes/ClippingExamples.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/Scenes/ClippingInstancedExamples.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/Scenes/ClippingInstancedExamples.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/Scenes/HoverLightExamples.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/Scenes/HoverLightExamples.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/Scenes/MaterialGallery.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/Scenes/MaterialGallery.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/Scenes/OutlineExamples 1.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/Scenes/OutlineExamples 1.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/Scenes/OutlineExamples.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/Scenes/OutlineExamples.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/Scenes/StandardMaterialComparison.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/Scenes/StandardMaterialComparison.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/Scenes/StandardMaterials.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/Scenes/StandardMaterials.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/Scenes/StencilTest.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/Scenes/StencilTest.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/Scripts/Editor/MRTK.Demos.StandardShader.Inspectors.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/Scripts/Editor/MRTK.Demos.StandardShader.Inspectors.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/Scripts/Editor/MaterialMatrixEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Demos - StandardShader/Scripts/Editor/MaterialMatrixEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Experimental - Elastic.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Experimental - Elastic/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Experimental - Elastic/Materials/springs.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Experimental - Elastic/Materials/springs.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Experimental - Elastic/Materials/springs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Experimental - Elastic/Materials/springs.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Experimental - Elastic/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Experimental - Elastic/Scenes/ElasticSystemExamples 1.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Experimental - Elastic/Scenes/ElasticSystemExamples 1.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Experimental - Elastic/Scenes/ElasticSystemExamples.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Experimental - Elastic/Scenes/ElasticSystemExamples.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Experimental - Elastic/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Experimental - Elastic/Scripts/WidgetElasticDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.6.2/Experimental - Elastic/Scripts/WidgetElasticDemo.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Models_HandInteractionHololectrics.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Models_HandInteractionHololectrics.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BasketActivation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BasketActivation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraSender.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraSender.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ImageAppearance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ImageAppearance.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sicherungen/SwitchingAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sicherungen/SwitchingAnimation.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,11 +225,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextureSender.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/SDK/Features/UX/Scripts/PulseShader/PulseShaderHandMeshHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/Services/InputSystem/NearInteractionGrabbable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/SDK/Features/Input/Handlers/Constraints/ConstraintManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DistanceMassband.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DistanceJoint3D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/Core/Utilities/Async/Internal/AsyncCoroutineRunner.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sicherungen/FuseThird.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sicherungen/FuseSecond.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WandscannerScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FrictionJoint3D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/Core/Utilities/MaintainBorderLightWidth.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/Core/Utilities/Rendering/MaterialInstance.cs" root0="SKIP_HIGHLIGHTING" />
@@ -272,7 +400,12 @@
       <workItem from="1637648964496" duration="3568000" />
       <workItem from="1638373145649" duration="4093000" />
       <workItem from="1638811203616" duration="2000" />
-      <workItem from="1638865437981" duration="674000" />
+      <workItem from="1638865437981" duration="2645000" />
+      <workItem from="1638905520118" duration="90000" />
+      <workItem from="1642683110127" duration="14049000" />
+      <workItem from="1642757630983" duration="3467000" />
+      <workItem from="1642767278518" duration="4686000" />
+      <workItem from="1643291791299" duration="2784000" />
     </task>
     <servers />
   </component>

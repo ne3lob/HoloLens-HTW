@@ -13,6 +13,7 @@ TagManager:
   - Socket
   - Fuse_1
   - Fuse_2
+  - Sicherung
   layers:
   - Default
   - TransparentFX

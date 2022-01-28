@@ -1,13 +1,21 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class FuseSecond : MonoBehaviour
 {
+    [SerializeField] private int amperFuseSecond = 16;
     [SerializeField] private GameObject labelFuseSecondOff;
     [SerializeField] private GameObject labelFuseSecondOn;
 
     public bool fuseSecondIsEnable=true;
+
+    private void Start()
+    {
+        
+    }
+
 
     public void FuseSecondSwitching()
     {

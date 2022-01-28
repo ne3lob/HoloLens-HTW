@@ -9,13 +9,13 @@ public class DisabledCollidersOnSicherungkastenObjects : MonoBehaviour
     {
         GameObject.Find("CaseSicherungkaste").GetComponent<MeshCollider>().enabled = true;
         GameObject.Find("DoorSicherungkaste").GetComponent<BoxCollider>().enabled = true;
-        GameObject.Find("BackgroundCaseSicherungkaste").GetComponent<MeshCollider>().enabled = true;
+        GameObject.Find("BackgroundCaseSicherungkaste").GetComponent<BoxCollider>().enabled = true;
     }
 
     public void TurnOffSicherungkastenCollider()
     {
         GameObject.Find("CaseSicherungkaste").GetComponent<MeshCollider>().enabled = false;
         GameObject.Find("DoorSicherungkaste").GetComponent<BoxCollider>().enabled = false;
-        GameObject.Find("BackgroundCaseSicherungkaste").GetComponent<MeshCollider>().enabled = false;
+        GameObject.Find("BackgroundCaseSicherungkaste").GetComponent<BoxCollider>().enabled = false;
     }
 }

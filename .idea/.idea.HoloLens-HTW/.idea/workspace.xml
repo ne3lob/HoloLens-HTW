@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9c25ff79-e8fa-44c1-996e-9d518d0744b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HoloLens-HTW/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HoloLens-HTW/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/OutlineGreen.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/OutlineGreen.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Models_HandInteractionHololectrics.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Models_HandInteractionHololectrics.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SicherungPlacestoSpawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SicherungPlacestoSpawn.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SicherungSlot2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SicherungSlot2.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +214,7 @@
       <workItem from="1642683110127" duration="14049000" />
       <workItem from="1642757630983" duration="3467000" />
       <workItem from="1642767278518" duration="4686000" />
-      <workItem from="1643291791299" duration="34588000" />
+      <workItem from="1643291791299" duration="36032000" />
     </task>
     <servers />
   </component>

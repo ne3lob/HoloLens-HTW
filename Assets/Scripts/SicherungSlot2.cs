@@ -16,7 +16,7 @@ public class SicherungSlot2 : MonoBehaviour
         if (collision.gameObject.tag == "Sicherung")
         {
             colGameObjectSlot2 = collision.gameObject;
-            Debug.Log("Do something else here");
+
             insideSlot2 = true;
         }
     }

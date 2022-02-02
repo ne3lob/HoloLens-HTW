@@ -8,10 +8,6 @@ public class SicherungPlacestoSpawn : MonoBehaviour
     public SicherungSlot4 _scriptSicherungSlot4;
     [SerializeField] private Transform _transformSicherungFloor;
 
-    void Start()
-    {
-    }
-
 
     public void CheckSecondSlot()
     {

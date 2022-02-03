@@ -5,8 +5,9 @@ using UnityEngine.Serialization;
 
 public class FuseSlotsToSpawn : MonoBehaviour
 {
+    public FuseSlot1 _scriptFuseSlot1;
     public FuseSlot2 _scriptFuseSlot2;
-    private bool insideSlot2;
+
 
     // public SicherungSlot4 _scriptSicherungSlot4;
     private Transform _transformSicherungFloor;
@@ -21,12 +22,12 @@ public class FuseSlotsToSpawn : MonoBehaviour
         if (isInsideSlot)
         {
             gameObjectInSlot.transform.position = new Vector3(transformFuse.position.x, transformFuse.position.y, transformFuse.position.z);
-            Debug.Log("Been");
         } //TODO floor
     }
 
-    public void CheckSlot2()
+    public void CheckAllSlots()
     {
+        CheckSlot(_scriptFuseSlot1.insideSlot1, _scriptFuseSlot1.GameObjecIntSlot1, _scriptFuseSlot1._transformFuseSlot1);
         CheckSlot(_scriptFuseSlot2.insideSlot2, _scriptFuseSlot2.GameObjecIntSlot2, _scriptFuseSlot2._transformFuseSlot2);
     }
 }

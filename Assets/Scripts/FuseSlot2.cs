@@ -3,19 +3,25 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SicherungSlot2 : MonoBehaviour
+public class FuseSlot2 : MonoBehaviour
 {
-    public bool insideSlot2;
+    [SerializeField] public bool insideSlot2;
 
-    public GameObject colGameObjectSlot2;
-    [SerializeField] public Transform _transformSicherungSlot2;
-    [SerializeField] private Transform _transformSicherungFloor;
+    [SerializeField] public GameObject GameObjecIntSlot2;
+
+    [HideInInspector] public Transform _transformFuseSlot2;
+    //TODO floor
+
+    private void Start()
+    {
+        _transformFuseSlot2 = gameObject.transform;
+    }
 
     void OnCollisionStay(Collision collision)
     {
         if (collision.gameObject.tag == "Sicherung")
         {
-            colGameObjectSlot2 = collision.gameObject;
+            GameObjecIntSlot2 = collision.gameObject;
 
             insideSlot2 = true;
         }

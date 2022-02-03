@@ -10,52 +10,33 @@ public class SwitchingAnimation : MonoBehaviour
     private Vector3 _targetRotationSwitcherOff;
     private Vector3 _targetRotationSwitcherOn;
 
-    private FuseFirst _fF;
+    private Fuse _fuse;
 
-    private FuseSecond _fS;
-    
-    private FuseThird _fT;
 
     //private FuseThird _fT;
     private ResidualCurrentDevice _rD;
 
-    void Awake()
-    {
-        _fF = GameObject.Find("BaseSicherungFirst").GetComponent<FuseFirst>();
-        _fS = GameObject.Find("BaseSicherungSecond").GetComponent<FuseSecond>();
-        _fT = GameObject.Find("BaseSicherungThird").GetComponent<FuseThird>();
-        _rD = GameObject.Find("BaseFI").GetComponent<ResidualCurrentDevice>();
-    }
 
     void Start()
     {
-        // _fT = GameObject.Find("BaseSicherungThird").GetComponent<FuseThird>();
+        _fuse = gameObject.GetComponentInParent<Fuse>();
 
 
-        _targetRotationSwitcherOff = new Vector3(0, 0, -5);
-        _targetRotationSwitcherOn = new Vector3(0, 0, -98);
+        _targetRotationSwitcherOff = new Vector3(0, -19, 0);
+        _targetRotationSwitcherOn = new Vector3(0, 90, 0);
     }
 
-    //TODO coroutine for Lerping
+
     private void LerpingSwitcher(bool fuseBool)
     {
         StartCoroutine(fuseBool ? GetComponent<Lerping>().LerpFunctionRotation(Quaternion.Euler(_targetRotationSwitcherOn), 0.1f) : GetComponent<Lerping>().LerpFunctionRotation(Quaternion.Euler(_targetRotationSwitcherOff), 0.1f));
     }
 
-    public void TurnSwitcherFirstFuse()
+    public void TurnSwitcherFuse()
     {
-        LerpingSwitcher(_fF.fuseFirstIsEnable);
+        LerpingSwitcher(_fuse.fuseIsEnable);
     }
 
-    public void TurnSwitcherSecondFuse()
-    {
-        LerpingSwitcher(_fS.fuseSecondIsEnable);
-    }
-
-     public void TurnSwitcherThirdFuse()
-     {
-         LerpingSwitcher(_fT.fuseThirdIsEnable);
-     }
     public void TurnSwitcherResidualCurrentDevice()
     {
         LerpingSwitcher(_rD.fiIsEnable);

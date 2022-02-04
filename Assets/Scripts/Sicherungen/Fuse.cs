@@ -28,4 +28,23 @@ public class Fuse : MonoBehaviour
                 break;
         }
     }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        FuseSlot script = collision.collider.GetComponent<FuseSlot>();
+        if (script != null && collision.gameObject.CompareTag("FuseSlot"))
+        {
+            script.insideSlot = true;
+            Debug.Log("collide (name) : " + collision.collider.gameObject.name);
+        }
+    }
+
+    void OnCollisionExit(Collision collision)
+    {
+        FuseSlot script = collision.collider.GetComponent<FuseSlot>();
+        if (script != null && collision.gameObject.CompareTag("FuseSlot"))
+        {
+            script.insideSlot = false;
+        }
+    }
 }

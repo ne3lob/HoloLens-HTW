@@ -5,8 +5,8 @@ using UnityEngine.Serialization;
 
 public class FuseSlotsToSpawn : MonoBehaviour
 {
-    public FuseSlot1 _scriptFuseSlot1;
-    public FuseSlot2 _scriptFuseSlot2;
+    public FuseSlot _scriptFuseSlot1;
+    //public FuseSlot2 _scriptFuseSlot2;
 
 
     // public SicherungSlot4 _scriptSicherungSlot4;
@@ -27,7 +27,7 @@ public class FuseSlotsToSpawn : MonoBehaviour
 
     public void CheckAllSlots()
     {
-        CheckSlot(_scriptFuseSlot1.insideSlot1, _scriptFuseSlot1.GameObjecIntSlot1, _scriptFuseSlot1._transformFuseSlot1);
-        CheckSlot(_scriptFuseSlot2.insideSlot2, _scriptFuseSlot2.GameObjecIntSlot2, _scriptFuseSlot2._transformFuseSlot2);
+        CheckSlot(_scriptFuseSlot1.insideSlot, _scriptFuseSlot1.GameObjecIntSlot, _scriptFuseSlot1._transformFuseSlot);
+        // CheckSlot(_scriptFuseSlot2.insideSlot2, _scriptFuseSlot2.GameObjecIntSlot2, _scriptFuseSlot2._transformFuseSlot2);
     }
 }

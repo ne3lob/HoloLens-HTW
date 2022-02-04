@@ -19,23 +19,21 @@ public class RotationDoorLimit : MonoBehaviour
 
     public void Update()
     {
-        Debug.Log(pivotDoor.localRotation.eulerAngles.y);
         if (doorManipulate && pivotDoor.localRotation.eulerAngles.y > 308f)
         {
-            Debug.Log("tut");
             StartCoroutine(LoadScriptBoundsControl());
-             var localRotation = pivotDoor.transform.localRotation;
-             localRotation = Quaternion.Euler(localRotation.x, 308, localRotation.z);
-             pivotDoor.transform.localRotation = localRotation;
+            var localRotation = pivotDoor.transform.localRotation;
+            localRotation = Quaternion.Euler(localRotation.x, 308, localRotation.z);
+            pivotDoor.transform.localRotation = localRotation;
         }
 
 
         else if (doorManipulate && pivotDoor.localRotation.eulerAngles.y < 179f)
         {
             StartCoroutine(LoadScriptBoundsControl());
-             var localRotation = pivotDoor.transform.localRotation;
-             localRotation = Quaternion.Euler(localRotation.x, 180, localRotation.z);
-             pivotDoor.transform.localRotation = localRotation;
+            var localRotation = pivotDoor.transform.localRotation;
+            localRotation = Quaternion.Euler(localRotation.x, 180, localRotation.z);
+            pivotDoor.transform.localRotation = localRotation;
         }
     }
 

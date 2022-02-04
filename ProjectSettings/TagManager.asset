@@ -16,6 +16,7 @@ TagManager:
   - Sicherung
   - Box
   - Floor
+  - FuseSlot
   layers:
   - Default
   - TransparentFX

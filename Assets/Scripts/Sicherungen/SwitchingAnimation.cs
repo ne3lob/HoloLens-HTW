@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class SwitchingAnimation : MonoBehaviour
@@ -20,6 +21,7 @@ public class SwitchingAnimation : MonoBehaviour
     void Start()
     {
         _fuse = gameObject.GetComponentInParent<Fuse>();
+        _rD = gameObject.GetComponentInParent<ResidualCurrentDevice>();
 
 
         _targetRotationSwitcherOff = new Vector3(0, -19, 0);

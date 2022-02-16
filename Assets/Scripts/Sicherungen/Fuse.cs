@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Fuse : MonoBehaviour
 {
-    [SerializeField] private int amperFuseSecond;
+    [SerializeField] private int Ampere;
     [SerializeField] private GameObject labelFuseOff;
     [SerializeField] private GameObject labelFuseOn;
 
@@ -28,13 +28,15 @@ public class Fuse : MonoBehaviour
                 break;
         }
     }
+    
 
     void OnCollisionEnter(Collision collision)
     {
         FuseSlot script = collision.collider.GetComponent<FuseSlot>();
-        if (script != null && collision.gameObject.CompareTag("FuseSlot"))
+        if (script != null && collision.gameObject.CompareTag("FuseSlot") && script.insideSlot == false)
         {
             script.insideSlot = true;
+            script.GameObjecIntSlot = this.gameObject;
             Debug.Log("collide (name) : " + collision.collider.gameObject.name);
         }
     }
@@ -42,7 +44,7 @@ public class Fuse : MonoBehaviour
     void OnCollisionExit(Collision collision)
     {
         FuseSlot script = collision.collider.GetComponent<FuseSlot>();
-        if (script != null && collision.gameObject.CompareTag("FuseSlot"))
+        if (script != null && collision.gameObject.CompareTag("FuseSlot") && script.insideSlot)
         {
             script.insideSlot = false;
         }

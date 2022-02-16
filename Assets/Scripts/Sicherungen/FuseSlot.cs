@@ -6,6 +6,7 @@ using UnityEngine;
 public class FuseSlot : MonoBehaviour
 {
     [SerializeField] public bool insideSlot;
+    [SerializeField] public bool isEmpty;
 
     [SerializeField] public GameObject GameObjecIntSlot;
 
@@ -16,22 +17,4 @@ public class FuseSlot : MonoBehaviour
     {
         _transformFuseSlot = gameObject.transform;
     }
-
-    // void OnCollisionEnter(Collision collision)
-    // {
-    //     if (collision.gameObject.CompareTag("Sicherung"))
-    //     {
-    //         GameObjecIntSlot = collision.gameObject;
-    //
-    //         insideSlot = true;
-    //     }
-    // }
-    //
-    // private void OnCollisionExit(Collision collision)
-    // {
-    //     if (collision.gameObject.CompareTag("Sicherung"))
-    //     {
-    //         insideSlot = false;
-    //     }
-    // }
 }

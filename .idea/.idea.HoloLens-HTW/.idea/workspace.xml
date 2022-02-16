@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c25ff79-e8fa-44c1-996e-9d518d0744b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Fuse.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Fuse.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HoloLens-HTW/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HoloLens-HTW/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/DevHololens.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/DevHololens.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/FuseSlotsToSpawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FuseSlotsToSpawn.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RotationDoorLimit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RotationDoorLimit.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sicherungen/Fuse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sicherungen/Fuse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sicherungen/FuseSlot1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sicherungen/FuseSlot1.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sicherungen/FuseSlot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sicherungen/FuseSlot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sicherungen/SwitchingAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sicherungen/SwitchingAnimation.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -211,7 +211,8 @@
       <workItem from="1642767278518" duration="4686000" />
       <workItem from="1643291791299" duration="36032000" />
       <workItem from="1643833571660" duration="24405000" />
-      <workItem from="1643963123103" duration="10581000" />
+      <workItem from="1643963123103" duration="14860000" />
+      <workItem from="1645010256092" duration="3453000" />
     </task>
     <servers />
   </component>

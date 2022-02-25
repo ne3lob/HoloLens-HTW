@@ -18,6 +18,8 @@ TagManager:
   - Floor
   - FuseSlot
   - SwitcerOnRcd
+  - RedStick
+  - BlackStick
   layers:
   - Default
   - TransparentFX

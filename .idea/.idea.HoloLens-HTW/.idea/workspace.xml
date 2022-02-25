@@ -2,14 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c25ff79-e8fa-44c1-996e-9d518d0744b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Fuse.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Fuse.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HoloLens-HTW/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HoloLens-HTW/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Box/BoxBase.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Box/BoxBase.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Multimetr/MultimetrRed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Multimetr/MultimetrRed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/OutlineGreen.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/OutlineGreen.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Generated/CustomProfiles/New MixedRealityPointerProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Generated/CustomProfiles/New MixedRealityPointerProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Fuse.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Fuse.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.5.1/Demos - HandTracking.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Demos - StandardShader/Scenes/ClippingExamples.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Demos - StandardShader/Scenes/ClippingExamples.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Demos - UX/Collections.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Demos - UX/Collections.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Demos - UX/ManipulationHandler.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Demos - UX/ManipulationHandler.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Demos - UX/ObjectManipulator.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Demos - UX/ObjectManipulator.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Demos - UX/ProgressIndicator.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Demos - UX/ProgressIndicator.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/DevHololens.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/DevHololens.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FuseSlotsToSpawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FuseSlotsToSpawn.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BasketActivation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BasketActivation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Multimetr/Multimetr.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Multimetr/Multimetr.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sicherungen/Fuse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sicherungen/Fuse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sicherungen/FuseSlot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sicherungen/FuseSlot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sicherungen/SwitchingAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sicherungen/SwitchingAnimation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WandscannerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WandscannerScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,34 +43,25 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/SDK/Features/Input/Handlers/Constraints/RotationAxisConstraint.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sicherungen/FuseSlot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SwitcherLabel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextureSender.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/SDK/Features/UX/Scripts/PulseShader/PulseShaderHandMeshHandler.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/SDK/Features/UX/Scripts/BoundsControl/BoundsControl.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/Services/InputSystem/NearInteractionGrabbable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/SDK/Features/Input/Handlers/Constraints/ConstraintManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sicherungen/Fuse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RedStick.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SetActiveObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DistanceMassband.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DistanceJoint3D.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/Core/Utilities/Async/Internal/AsyncCoroutineRunner.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RopeRoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sicherungen/FuseThird.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FrictionJoint3D.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/Core/Utilities/MaintainBorderLightWidth.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/Core/Utilities/Rendering/MaterialInstance.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/BaseInput.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RopeRoot.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/Core/Utilities/StandardShader/MeshOutline.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/Core/Providers/Hands/BaseHandVisualizer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/Core/Utilities/StandardShader/MeshSmoother.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sicherungen/SwitchingAnimation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ResidualCurrentDevice.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BlackStick.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpatialObservationsScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.examples@2.7.2/Common/Scripts/DemoSpatialMeshHandler.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/SDK/Features/Input/Handlers/CursorContextObjectManipulator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Cable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StopTapPlaceContent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/SDK/Features/UX/Scripts/Tooltips/ToolTipSpawner.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/Core/Utilities/StandardShader/ClippingSphere.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_SubMeshUI.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@2.7.2/SDK/Features/UX/Scripts/Tooltips/ToolTipLineHighlight.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/BaseInput.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FuseSlotsToSpawn.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -212,7 +217,11 @@
       <workItem from="1643291791299" duration="36032000" />
       <workItem from="1643833571660" duration="24405000" />
       <workItem from="1643963123103" duration="14860000" />
-      <workItem from="1645010256092" duration="3453000" />
+      <workItem from="1645010256092" duration="4839000" />
+      <workItem from="1645134027815" duration="3094000" />
+      <workItem from="1645163784332" duration="17910000" />
+      <workItem from="1645741247333" duration="1778000" />
+      <workItem from="1645779814790" duration="4155000" />
     </task>
     <servers />
   </component>

@@ -6,7 +6,7 @@ public class BasketActivation : MonoBehaviour
 {
     void Start()
     {
-        this.gameObject.SetActive(false);
+       gameObject.SetActive(false);
     }
 
     public void BasketActivator()

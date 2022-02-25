@@ -2,15 +2,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class Fuse : MonoBehaviour
 {
     [SerializeField] private int Ampere;
     [SerializeField] private GameObject labelFuseOff;
     [SerializeField] private GameObject labelFuseOn;
+    [SerializeField] private GameObject multimetrText;
+
 
     public bool fuseIsEnable = true;
+    private ResidualCurrentDevice _residualCurrentDeviceScript;
 
+    private void Start()
+    {
+        _residualCurrentDeviceScript = GetComponent<ResidualCurrentDevice>();
+    }
 
     public void FuseSwitching()
     {
@@ -28,7 +36,9 @@ public class Fuse : MonoBehaviour
                 break;
         }
     }
-    
+
+    private bool isCollidedWithRedStick = false;
+    private bool isCollidedWithBlackStick = false;
 
     void OnCollisionEnter(Collision collision)
     {
@@ -39,6 +49,17 @@ public class Fuse : MonoBehaviour
             script.GameObjecIntSlot = this.gameObject;
             Debug.Log("collide (name) : " + collision.collider.gameObject.name);
         }
+        else if (collision.gameObject.CompareTag("RedStick"))
+        {
+            isCollidedWithRedStick = true;
+        }
+        else if (collision.gameObject.CompareTag("BlackStick"))
+        {
+            isCollidedWithBlackStick = true;
+        }
+
+        if (isCollidedWithRedStick && isCollidedWithBlackStick)
+            multimetrText.SetActive(true);
     }
 
     void OnCollisionExit(Collision collision)
@@ -48,5 +69,16 @@ public class Fuse : MonoBehaviour
         {
             script.insideSlot = false;
         }
+        else if (collision.gameObject.CompareTag("RedStick"))
+        {
+            isCollidedWithRedStick = false;
+        }
+        else if (collision.gameObject.CompareTag("BlackStick"))
+        {
+            isCollidedWithBlackStick = false;
+        }
+
+        if (!isCollidedWithRedStick && !isCollidedWithBlackStick)
+            multimetrText.SetActive(false);
     }
 }

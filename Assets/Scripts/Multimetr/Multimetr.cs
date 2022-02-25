@@ -1,63 +1,46 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Microsoft.MixedReality.Toolkit.Input;
+using Microsoft.MixedReality.Toolkit.UI;
+using Microsoft.MixedReality.Toolkit.Utilities;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class Multimetr : MonoBehaviour
 {
-    [SerializeField] public GameObject FIToolTipBox;
-    [SerializeField] public GameObject SocketToolTipBox;
-    [SerializeField] public GameObject Fuse_1_ToolTipBox;
-    [SerializeField] public GameObject Fuse_2_ToolTipBox;
-    
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private List<GameObject> fuseBoxObjects;
+    [SerializeField] private GameObject multimeterBase;
+
+
+    private Vector3 _startPositionMultimeterBase;
+
+    private int _fistConnectionWithMultimetr;
+
+    public void SaveStartCoordinate()
     {
+        if (_fistConnectionWithMultimetr < 1)
+        {
+            _startPositionMultimeterBase = multimeterBase.transform.position;
+
+
+            _fistConnectionWithMultimetr++;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SwitchScripts(bool enable)
     {
+        foreach (var obj in fuseBoxObjects)
+        {
+            obj.GetComponent<FocusHandler>().enabled = enable;
+            obj.GetComponent<MeshOutline>().enabled = enable;
+            obj.GetComponent<Interactable>().enabled = enable;
+            obj.GetComponent<ObjectManipulator>().enabled = enable;
+        }
     }
 
-    void OnTriggerEnter(Collider other)
+    public void ToStartCoordinateBase()
     {
-        if (other.gameObject.tag == "FI")
-        {
-            FIToolTipBox.SetActive(true);
-        }
-        else if (other.gameObject.tag == "Socket")
-        {
-            SocketToolTipBox.SetActive(true);
-        }
-        else  if (other.gameObject.tag == "Fuse")
-        {
-            Fuse_1_ToolTipBox.SetActive(true);
-        }
-        else if (other.gameObject.tag == "Fuse_2")
-        {
-            Fuse_2_ToolTipBox.SetActive(true);
-        }
-
-    }
-
-    void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.tag == "FI")
-        {
-            FIToolTipBox.SetActive(false);
-        }
-       else if (other.gameObject.tag == "Socket")
-        {
-            SocketToolTipBox.SetActive(false);
-        }
-        else   if (other.gameObject.tag == "Fuse_1")
-        {
-            Fuse_1_ToolTipBox.SetActive(false);
-        }
-       else  if (other.gameObject.tag == "Fuse_2")
-        {
-            Fuse_2_ToolTipBox.SetActive(false);
-        }
+        StartCoroutine(GetComponent<Lerping>().LerpFunctionPosition(multimeterBase.transform.position, _startPositionMultimeterBase, 0.2f));
     }
 }

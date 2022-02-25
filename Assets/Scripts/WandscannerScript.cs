@@ -28,13 +28,13 @@ public class WandscannerScript : MonoBehaviour
         if (wandscannerGameObject.transform.rotation != targetWandscannerRotation)
         {
             targetWandscannerRotation = abweigdoseGameObject.transform.rotation;
-           
+
             StartCoroutine(GetComponent<Lerping>().LerpFunctionRotation(targetWandscannerRotation, 0.5f));
             wandscannerGameObject.transform.rotation = targetWandscannerRotation;
         }
     }
 
-    private int _fistConnectionWitchWandscanner = 0;
+    private int _fistConnectionWitchWandscanner;
 
     public void SaveStartPositionWandscanner()
     {
@@ -49,7 +49,6 @@ public class WandscannerScript : MonoBehaviour
 
     public void WandscannerToStart()
     {
-        
         CheckDistanceToWandscanner(gameObject, werkzeugkisteGameObject);
         if (_distancetoWandscanner < 1f)
         {
@@ -62,10 +61,5 @@ public class WandscannerScript : MonoBehaviour
     private void CheckDistanceToWandscanner(GameObject startPointObject, GameObject targetPointObject)
     {
         _distancetoWandscanner = Vector3.Distance(startPointObject.transform.position, targetPointObject.transform.position);
-    }
-
-    private void Update()
-    {
-        Debug.Log(_distancetoWandscanner);
     }
 }
